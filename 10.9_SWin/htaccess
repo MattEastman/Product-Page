@@ -1,0 +1,4 @@
+Header set Access-Control-Allow-Origin "https://cdn.ampproject.org"
+Header set AMP-Access-Control-Allow-Source-Origin "https://teleflorastgblog.site"
+
+
