@@ -1,0 +1,1202 @@
+<!doctype html>
+<html ⚡>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>LI|TF AMP Demo</title>
+    <link rel="canonical" href="http://www.teleflora.com/gift-giving-ideas/valentines">
+    <link rel="manifest" href="manifest.json">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+    <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+    <script type="application/ld+json">{
+        "@context": "http://schema.org/",
+        "@type": "Product",
+        "name": "Apple",
+        "image": "http://img.teleflora.com/images/o_0/l_flowers:t64-1a,pg_6/w_272,h_340,cs_no_cmyk,c_pad/f_png,q_auto:eco,e_sharpen:200/flowers/t64-1a/AlwaysonMyMind",
+        "description": "Lorem ipsum",
+        "mpn": "925872",
+        "brand": {
+            "@type": "Fruit",
+            "name": "Apple"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.4",
+            "reviewCount": "88"
+        },
+        "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "1.99",
+            "priceValidUntil": "2020-11-05",
+            "itemCondition": "http://schema.org/UsedCondition",
+            "availability": "http://schema.org/InStock",
+            "seller": {
+                "@type": "Retail",
+                "name": "AMP by Example"
+            }
+        }
+    }</script>
+    
+<!--  CSS is Mobile First   ------------------------------------->
+<style amp-custom>
+    .dis-n{display: none;}.block{display:block;}.inlineB{display:inline-block;}.inline{display:inline;}.pos-i{position:inherit}.pos-r{position:relative}.pos-a{position:absolute}.pos-f{position:fixed}.mar-auto0{margin:auto;}.mar-auto{margin:auto;}.mar-i{margin:inherit;}.mar-0{margin:0}.mar-5{margin:5px}.mar-10{margin:10px}.mar-20{margin:20px}.mar-50{margin:20px}.mar-100{margin:100px;}.mart-0{margin-top:0}.mar-t5{margin-top:5px}.mar-t10{margin-top:10px}.mar-t20{margin-top:20px}.mar-t50{margin-top:20px}.mar-t100{margin-top:100px;}.marb-0{margin-bottom:0}.mar-b5{margin-bottom:5px}.mar-b10{margin-bottom:10px}.mar-b20{margin-bottom:20px}.mar-b50{margin-bottom:20px}.mar-b100{margin-bottom:100px;}.mar-l0{margin-left:0}.mar-l5{margin-left:5px}.mar-l10{margin-left:10px}.mar-bl0{margin-left:20px}.mar-l50{margin-left:20px}.mar-l100{margin-left:100px;}.mar-r0{margin-right:0}.mar-r5{margin-right:5px}.mar-r10{margin-right:10px}.mar-rl0{margin-right:20px}.mar-r50{margin-right:20px}.mar-r100{margin-right:100px;}.padd-0{padding:0}.padd-5{padding:5px}.padd-10{padding:10px}.padd-20{padding:20px}.padd-50{padding:20px}.padd-100{padding:100px;}.paddt-0{padding-top:0}.padd-t5{padding-top:5px}.padd-t10{padding-top:10px}.padd-t20{padding-top:20px}.padd-t50{padding-top:20px}.padd-t100{padding-top:100px;}.paddb-0{padding-bottom:0}.padd-b5{padding-bottom:5px}.padd-b10{padding-bottom:10px}.padd-b20{padding-bottom:20px}.padd-b50{padding-bottom:20px}.padd-b100{padding-bottom:100px;}.padd-l0{padding-left:0}.padd-l5{padding-left:5px}.padd-l10{padding-left:10px}.padd-bl0{padding-left:20px}.padd-l50{padding-left:20px}.padd-l100{padding-left:100px;}.padd-r0{padding-right:0}.padd-r5{padding-right:5px}.padd-r10{padding-right:10px}.padd-rl0{padding-right:20px}.padd-r50{padding-right:20px}.padd-r100{padding-right:100px;}wid-0{width:0%;}wid-5{width:5%;}wid-10{width:10%;}wid-25{width:25%;}wid-50{width:50%;}wid-100{width:100%;}.wid-noM{max-width:none;}.min-w0{min-width:0px}.min-w10{min-width:10px}.min-w25{min-width:25px}.min-w50{min-width:50px}.min-w100{min-width:100px}.min-w250{min-width:250px}.min-w500{min-width:500px}.min-w1000{min-width:1000px}.h0{height:0px}.h10{height:10px}.h25{height:25px}.h50{height:50px}.h100{height:100px}.h200{height:200px}.h500{height:500px}.h-noM{max-height:none;}.min-h0{min-height:0px}.min-h10{min-height:10px}.min-h25{min-height:25px}.min-h50{min-height:50px}.min-h100{min-height:100px}.min-h250{min-height:250px}.min-h500{min-height:500px}.min-h1000{min-height:1000px}[class*="col-"]{float:left;}.col-1{width:8.33%;}.col-2{width:16.66%;}.col-3{width:25%;}.col-4{width:33.33%;}.col-5{width:41.66%;}.col-6{width:50%;}.col-7{width:58.33%;}.col-8{width:66.66%;}.col-9{width:75%;}.col-10{width:83.33%;}.col-11{width:91.66%;}.col-12{width:100%;}.txt-c{text-align:center}.txt-l{text-align:left}.txt-r{text-align:right;}.txt-8{font-size:8px}.txt-10{font-size:10px}.txt-12{font-size:12px;}.txt-14{font-size:14px}.txt-16{font-size:16px}.txt-18{font-size:18px;}.txt-25{font-size:25px}.txt-30{font-size:30px}.txt-35{font-size:35px}.txt-w3{font-weight:300}.txt-w4{font-weight:400}.txt-w5{font-weight:500}.txt-w6{font-weight:600}.txt-w7{font-weight:700}.txt-w8{font-weight:800}.txt-dec-i{text-decoration:inherit}.txt-dec-u{text-decoration:underline} .of-i{overflow:inherit}.of-h{overflow:hidden}.of-v{overflow:visible}.of-s{overflow:scroll}.of-a{overflow:auto}.of-x-i{overflow-x:inherit}.of-x-h{overflow-x:hidden}.of-x-v{overflow-x:visible}.of-x-s{overflow-x:scroll}.of-x-a{overflow-x:auto}.of-y-i{overflow-y:inherit}.of-y-h{overflow-y:hidden}.of-y-v{overflow-y:visible}.of-y-s{overflow-y:scroll}.of-y-a{overflow-y:auto}z.bor-n{border: none;}.bor-radN{border-radius:0px}.bor-nL{border-left: none;}.bor-nR{border-right: none;}.bor-nT{border-top: none;}.bor-nB{border-bottom: none;}.back-ci{background-color:inherit;}.color-n{color:inherit;}.v-ali-b{vertical-align:bottom}.v-ali-t{vertical-align:top}.v-ali-m{vertical-align:middle}.v-ali-tb{vertical-align:text-bottom}.v-ali-tt{vertical-align:text-top}a{color:#fa3c7a; text-decoration: none;}li{list-style-type: none;}h1,h2,h3,h4,h5,h6{text-align: center; font-family: 'Bembo W01', Georgia, "Times New Roman", serif;}h1{font-size: 1.84615em; font-family: 'Bembo W01', Georgia, "Times New Roman", serif;;font-weight: 400;}h2{font-size: .92em; font-family:"Avenir-Medium", Helvetica, sans-serif; font-weight: 400;}h4{font-size: 17px; line-height: 1.34;}h5{font-size: 13px; font-family: 'Bembo STD' }.dividerline{clear: both; border-top: 1px solid #CCCCCC;margin: 2px 70px 40px 70px;}.dividerline2{clear: both; border-top: 1px solid #CCCCCC;margin:10px 20px 10px 20px;}.dividerline3 {clear: both; border-top: 1px solid #CCCCCC;}.dividerline4{clear: both; border-top: 1px solid #CCCCCC; margin: -5px 22px 25px 22px}.dividerline5 {clear: both; border-top: 1px solid #CCCCCC; margin-top: 15px;position: relative;left: -25px;margin-bottom: -10px;}.dividerline6{clear: both; border-top: 1px solid #CCCCCC; margin-top: 13px;position: relative;left: -55px;margin-bottom: -10px;} #logo{display: inline-block; position: relative; top:-12px; right: -10px; margin: 0 auto;}#dod_greyback{background-color: rgba(240,240,240,1)}#center-dod{position: relative;left:0px;right:0px;padding-left: 5px;}#up15{position: relative;top: -15px}#up20{position: relative;top: -19px}#down10{position: relative;top:10px;}#down22{position: relative;top:22px;}#left15{position: relative;left:-15px;}#right19{position: relative;right:-19px;}#right91{position: relative;left:91px;}#right85{position: relative;left:85px;}#right96{position: relative;left:96px;}#right105{position: relative;left:105px;}#right120{position: relative;left:120px;}.lang-toggle{height: 120px;}.fixed{position: fixed;}.logo-container{width: 7em;float: right;height: 2.43em;position: relative;top:15px;left: -20px;}.logo-container svg{width: 100%;height: 1.50em;fill: #fa3c7a;transition-property: fill;transition-duration: 0.5s;margin-left: -15px;}#menu-svg{position: relative;top:7px;left:10px;padding-bottom: 4px;}#header-sidebar{border: 1px solid #e2e2e2;background-color:#ffffff;}header{width: 100%;z-index: 98;}.ampstart-navbar-trigger{display:block;background-color: #ffffff;height: 60px;border-bottom: 1px solid #cccccc; box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);}.trigger-container{width: 200px;}.ampstart-navbar-trigger h2{font-size: 14px; display: block;position: relative;left: -73px;top:-25px;}.login-container{ display:inline-block; height: 22px;float: right;position: relative;top: -70px;width: 170px;right:-12px;}.login-container .login, .login-container .cart{display: inline-block;margin:15px 0px 5px 5px;height: 55px;width:76px; position: relative;float: right;}.login-container .cart{width: 60px;position: relative;left: 10px;}.login-container .login{width: 100px;}.login h6,.cart h6{font-size: 12px; font-weight: 400; font-family: "Avenir LT W01 65 Medium", Helvetica, sans-serif;color:#787878; display: inline-block; position: relative;bottom: -15px;right: 0px; margin: auto;}.cart h6 {text-align: left;}.icon-user, .icon-cart, .icon-askE, .icon-arrowD{display: block;margin: 0;float: left;background-image: url(http://img.teleflora.com/image/upload/v1473371195/prod/misc/ui-sprite.svg);position: relative;left:-5px;bottom: -17px;}.icon-user {width: 1.00em; height: 0.97em;  background-position: -68px 0; }.icon-cart{width: 1.3em; height: 1.9em;  background-position: -85px 0;bottom: -19px;}#cart-num{color:#787878;position: relative;top:9px;right: 15px;font-size: 9px;margin-right: -8px;}.icon-arrowD{z-index: 1; width: 1.25em; height: .7em;  background-position: -182px -6px;position: relative;bottom:-11px;left:160px; margin-top: -.7em;}#username{position: relative;top:19px;} .ampstart-nav {margin-top: -32px; background-color: #ffffff; width: 230px;}.ampstart-nav ul {list-style-type: none;position: relative;max-width: 160px;margin:0px;}.ampstart-nav li {position: relative; left: -40px;border-bottom: 1px solid #f1f1f1;min-width:220px;}.ampstart-nav a {font-family: "Avenir LT W01 85 Heavy",Helvetica,sans-serif; font-size: 13px;text-decoration: none;text-transform: uppercase;padding-left: 20px;font-weight: 400;color:black;}.ampstart-nav h2{background-color:#f1f1f1; padding: 5px 0px;text-align: left;padding-left: 10px;border: 1px solid #cccccc; border-left: 0px;border-right: 0px; margin:0px;}.ampstart-dropdown-item{padding:10px 5px;text-decoration: none;}section .ampstart-dropdown-item a{position: relative;left: 38px;}    .ampstart-dropdown-item a:hover{color:#fa3c7a;}#x-icon{text-align: left;padding: 5px 0px 1px 0px ;margin-bottom: 30px; position: relative;left: -50px;top:0px;color:#fa3c7a;}#x-icon #left-arrow{height:50px;width:20px;position:absolute;top:-17px;left:-78px;}amp-accordion section {border: none;}amp-accordion section[expanded] .show-more {display: none;}amp-accordion section[expanded] h4,amp-accordion section[expanded]  {background-color: #ffffff;border: none;}amp-accordion section:not[expanded] h4,amp-accordion section:not[expanded]  {background-color: #ffffff;border: none;}
+    amp-accordion section:not([expanded]) .show-less {display: none;}amp-accordion h4 {font-family: "Avenir LT W01 85 Heavy",Helvetica,sans-serif; font-size: 13px;text-decoration: none;text-transform: uppercase;padding-left: 20px;font-weight: 400;color:black;position: relative; left: -80px;min-width:220px;}amp-accordion#hidden-header section[expanded] h4 {border: none;}.figcaption2 h2 {text-align: center; background-color:inherit;border: none;font-size: 1.2em;color:#fa3c7a;position: relative;left: -10px;padding-top: 10px;text-transform: none;}.figcaption3 h2 {text-align: center; background-color:inherit;border: none;font-size: 1.2em;color:#fa3c7a;position: relative;left: -25px;top:5px;text-transform: none;margin:-25px; margin-bottom: -15px;}amp-accordion figcaption {text-align: center;}.nav-accord{text-align: left; background-color:#ffffff;border: none;position:relative; left: -20px;min-width: 250px;padding: 7px 50px;margin: -7px;}.nav-accord:hover{color:#fa3c7a;}.shopPic{width: 45%;float: left;margin: 2.5%;margin-top: 10px;}.shop-picRow{width: 100%; display: inline-block;}.shop-picCap{display: inlinblock;width: 48%;float: left;font-family: "Avenir LT W01 85 Heavy",Helvetica,sans-serif;font-size: 13px; text-align: center; font-weight: 400;margin-top: -15px;padding-bottom: 10px;}.shop-picCap:hover{color:#fa3c7a;}.shop-colorBox{display: inline-block;margin-right: 10px;position: relative;top: 5px; height: 20px; width: 20px;border: 1px solid #cccccc;}.yellow{background-color:#ffd200;}.white{background-color:#ffffff;}.red{background-color:#e20000;}.purple{background-color:#a859cd;}.pink{background-color:#ff8ac1;}.orange{background-color:#ff7800;}.green{background-color:#04ac63;}.blue{background-color:#005ec8;}#t-pink{color:#fa3c7a;}.main-container{padding:0px 5px;max-width: 67.5em;margin: auto;margin-top: 150px;}.main-container amp-img{display: block; margin: auto;}.main-container h3,.main-container h4{text-align: left;font-weight: 400; padding: 0px 20px;}.main-container h4{font-size: 1.17em;margin-top: -10px;}.lightbox {background: rgba(250,250,250,0.6);width: 100%;height: 100%;position:absolute;display: flex;align-items: center;justify-content: center;}.modal{width:100%;max-width: 870px;position: absolute;top: 0%;overflow: visible;background-color: #ffffff;border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px;border: 1px solid #ddd; box-shadow: 0px 3px 7px #888888;}.pdp-modal-header{background-color: #F5F5F5;height: 35px;}.modal-header{padding: 9px 15px;border-bottom: 1px solid #eee;}.pdp-modal-header-text{font-size: 1.15em;margin-top: 10px;}.icon-close.icon-close-modal {background-color: transparent;background-position: -23px 3px;background-size: 9.4em auto;border: medium hidden;font-size: 1.15385em;height: 1.1em;right: 1em;top: 0.6em;width: 1em;}.icon-close {position: absolute;top: 0;right: 0;width: 1.7em;height: 1.7em;display: block;background-image:url(http://img.teleflora.com/image/upload/v1473371195/prod/misc/ui-sprite.svg);background-position: -41px -189px;text-indent: -9999px;}.modal-body{color:#666;font-weight:normal;font-size:.95em;margin-left: -10px;}ul.pop-up-text {margin: 30px;}.promobanner-slide {margin-bottom: 7px;list-style-type: disc;}.top-promo-container{position: relative;top:0px;background-color: #ffffff;}.top-promo-container amp-img{display: none;}.top-promo-container amp-img{position: relative;right: 10px;top:15px;}.promo-container{background: url(http://img.teleflora.com/image/upload/f_png,q_auto:eco/v1502749833/prod/banners/promo-banner_amp.jpg) no-repeat;background-size: 100% 100%; height: 32px;z-index: 99;}.promo-bar-container span{color:#fa3c7a;}.promo-bar-container h3{font-family: 'Bembo STD';color:black;position: absolute;top:-22px;height: 100%;padding-top: 10px;padding-bottom: 16px;}.amp-carousel-button{display: none;}.promo-container h3{text-align: center; font-size: .74em;color:#ffffff;font-family: "Avenir LT W01 65 Medium", Helvetica, sans-serif;max-width: 90%;margin-left: 5%;margin-top: 0px;padding-top:2px;}.promo-container amp-img{position: absolute; top:60; left:0;}.promo-container #tri2 {position: relative; top:-38px; right: 0px; -moz-transform: scaleX(-1);-o-transform: scaleX(-1);-webkit-transform: scaleX(-1);transform: scaleX(-1);filter: FlipH;-ms-filter: "FlipH";}form.amp-form-submit-success [submit-success],form.amp-form-submit-error [submit-error]{margin-top: 16px;}form.amp-form-submit-success [submit-success] {color: green;}form.amp-form-submit-error [submit-error] {color: red;}form.amp-form-submit-success.hide-inputs > input {display: none;}form #submit{position: relative;left: 60%; top:-35px; width: 55px;}form input{position: relative; width: 60%;height: 35px; display: block; margin: auto;margin-left: 15%;border-radius:5px 0px 0px 5px; -webkit-border-radius: 5px 0px 0px 5px; -moz-border-radius: 5px 0px 0px 5px;}
+    
+   .ampstart-headerbar-nav .ampstart-nav-item {
+	padding-right: 1rem}
+.ampstart-headerbar-nav .ampstart-nav-item.www-current-page {
+	color: #066573}
+.ampstart-headerbar-nav .ampstart-nav-item.www-current-page:after, .www-component-anchor[selected]:after {
+	content: "";
+	display: block;
+	height: 4px;
+	background: linear-gradient(90deg, #94103e 0, #db004d)
+}
+    
+    form#order amp-selector > ul {
+	list-style: none;
+	display: flex;
+	align-items: flex-end;
+	justify-content: end;
+}
+form#order amp-selector > ul li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 8px;
+	background: white;
+	height: 40px;
+	min-width: 40px;
+	width: auto;
+}
+form#order amp-selector [option] {
+	outline: none;
+}
+form#order amp-selector amp-img[option][selected] {
+	outline-width: 1px;
+	outline-style: solid;
+	outline-color: #eb407a;
+	background: none;
+}
+form#order amp-selector:not([disabled]) [option][selected]:not([disabled]), amp-img.selected {
+	will-change: box-shadow;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: box-shadow 0.3s cubic-bezier(.25, .8, .25, 1);
+	color: #fff;
+}
+form#order amp-selector:not([disabled]) [option][selected]:not([disabled]):not(.unavailable):not(.square) {
+	background-color: #eb407a;
+}
+form#order amp-selector:not([disabled]) [option][selected]:not([disabled]):not(.unavailable).square {
+	outline: 1px solid #eb407a;
+}
+form#order amp-selector:not([disabled]) [option]:not([selected]):not([disabled]), amp-img:not([.selected]) {
+	will-change: box-shadow;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	transition: box-shadow 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+form#order amp-selector[name=color] div:not([selected]):not([disabled]) {
+	opacity: 0.6;
+}
+    .ampTabContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+.tabButton {
+	list-style: none;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+}
+amp-selector [option][selected] {
+	outline: #fff;
+}
+.tabContent {
+	line-height: 1.5rem;
+	display: none;
+	width: 100%;
+	order: 1;
+}
+.tabButton[selected]::after {
+	content: '';
+	display: block;
+	height: 4px;
+	background: linear-gradient(90deg, #94103e 0, #db004d);
+}
+.tabButton[selected]+.tabContent {
+	display: block;
+}
+    
+    .product-box .ampstart-input-radio{
+        display: inline-block;margin: auto 0;padding-left: 20px;margin-left: 10%;
+    }
+    
+    .green {
+	background-color: #008000;
+}
+.red {
+	background-color: #FF0000;
+}
+.golden {
+	background-color: #DAA520;
+}
+                                
+    .search-box{opacity: 1; position: relative;top:70px;width: 100%;margin-left: 0%;}.search-box form .ampstart-input input{height: 32px; font-size: 17px; border:1px solid #cccccc; border-right:none; width:70%;margin-left: 10%;}.search-box input[type=submit] {background: url(http://img.teleflora.com/image/upload/f_png,q_auto:eco/v1499981981/prod/logos/search-icon.jpg) no-repeat; background-position:center; border:1px solid #cccccc;border-left: none; border-radius:0px 5px 5px 0px; -webkit-border-radius: 0px 5px 5px 0px; -moz-border-radius: 0px 5px 5px 0px;margin-left: 15%;height: 32px;margin-top: 3px;background-color: #ffffff}.footer{background-color: #fafafa;padding: 10px 0px; border-top: 1px solid #cccccc;box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.05);}.footer-list a{text-decoration: none;}.container-footer{width: 100%;max-width: 72.3077em;margin: auto;}.footer h5,.footer p,.footer li a{text-align: left;color:grey}.footer h5{ margin-bottom: 2px;margin-left: 20px; color:black;}.footer p{color:black;font-size: .88em; margin: 0;padding-left: 21px;max-width: 350px}.footer li a{font-size: .80em; text-align: left;font-family: "Avenir LT W01 65 Medium", Helvetica, sans-serif;margin-left: -3px;}.footer ul{margin-top: 10px;}.footer li{padding-bottom: 6px;margin-left: -20px;}.footer a{padding: 0px 3px;}.footer form{margin-bottom: -35px;}.footer form .email-feild{width: 60%;height: 37px; margin:20px 0px 0px 5%; border: 1px solid #cccccc;font-size: 17px;}.footer #email-btn{width: 20%;height: 41px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; position: relative;top:-41px;left: 50%;background-color: #efefef;font-size: 15px;}fieldset{border: 0px;}.footer-social{margin: 25px 0px 20px 15px;}.footer-social a{text-decoration: none;padding: 0px 7px 0px 7px}#img-rewards{display: block; padding: 20px 19px 15px 20px;}.footer-sublist{display: inline-block; width: 48%;vertical-align: top;}        
+/*  -- Large smartphones, Tablets --------  */
+    @media (min-width:480px) and (max-width: 999px) {
+        .top-promo-container{width: 100%;}.top-promo-container h3{width: 100%;}}  
+/*  -----  Desktop  -------------------------  */
+    @media screen and (min-width: 1000px){.d-hide,.ampstart-headerbar{display:none;}header{position: fixed;top: 0px;position: relative;z-index: 100;background-color: #ffffff;}.d-header {backface-visibility: hidden;background-color: #fff;    border-bottom: 1px solid #cccccc;box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);font-weight: 300;transform: translateZ(0);}amp-carousel{margin-top: 10px;}.top-promo-container amp-img{display: inline-block;position: relative;top:10px;}.top-promo-container{position: relative;left: -15px;top:-5px}.top-promo-container h3{margin-top: 24px;}.promo-container{background: url(http://img.teleflora.com/image/upload/f_png,q_auto:eco/v1502834621/prod/banners/promo_banner_amp_big.jpg) no-repeat;background-size: 100% 100%;margin-top: -3.5px;}.promo-container h3{font-size: 1.1em;padding-top: 5px;}.promo-bar-container h3{font-size: 1.33em;color:black;padding-top: 10px;padding-bottom: 10px; position:relative;top:-45px;background-color:#FFFFFF;}#d-nav-back{background-color: #ffffff;height: 105px;}.d-header .container{margin: auto;max-width: 1050px;}.d-header .left-nav,.d-header .tabs{display: flex;}.d-header .left-nav {justify-content: flex-start;align-items: center;position: relative;left: 200px;}.d-header .container a{font-family: "Avenir LT W01 85 Heavy",Helvetica,sans-serif;font-size: .90em;font-weight: 600;}.d-header .tabs {align-items: stretch;justify-content: center;margin-left: -200px;margin-bottom: -138px;height: 10px;}.d-header .tab {color: #333;font-weight: 400;margin: 0 4px; position: relative;top: 10px; transition: .1s ease color;padding: 7px 9px 7px 2px;}.d-header .tab::after {background: linear-gradient(to right, #1c79c0, #0389ff, #0dd3ff);bottom: 0;content: '';height: 3px;left: 20px;margin: auto;opacity: 0;position: absolute;right: 20px;transition: .1s ease opacity;}.d-header .tab:hover {color: #ffffff;background-color: #fa3c7a;margin-bottom: -20px;border-radius: 5px 5px 0px 0px; -webkit-border-radius:5px 5px 0px 0px; -moz-border-radius:5px 5px 0px 0px;}.d-header .tab::before {bottom: 0;left: -10px;opacity: 0;position: absolute;right: -10px;top: 20px;transition: opacity .2s ease-out;}.d-header .tab>a {color: inherit;text-transform:uppercase;position: relative;left: -15px;}  .d-header .tab .list-container{opacity: 0;pointer-events: none;position: absolute;transition: .2s ease-out;z-index: -1;}.d-header .tab .list-container>ul {min-width:220px; position:relative; top:-12px; left:-10px;background:#ffffff;min-height: 300px;border: 1px solid #cccccc;border-top: 4px solid #fa3c7a;}               .header .tab .list-container>ul li {box-sizing: border-box;position: relative;}.d-header .tab .list-container>ul li a {display: block;padding: 9px  10px;text-transform: uppercase;color:black;margin-left: -35px;position: relative;top:17px;}.d-header .tab:hover .icon-arrowD {width: 1.25em; height: .7em; background-position:-273px 177px;}.d-header .tab .list-container>ul li a:hover {color:#fa3c7a;}.d-header .tab:hover::before {opacity: 1;}.d-header .tab:hover .list-container {opacity: 1;pointer-events: all;z-index: 0;}.d-header .top-tabs {position: absolute;left:-220px;top:-32px;max-height: 10px;  min-width: 1050px;margin: auto;}.d-header .top-tabs ul{float: left;margin-right: 5%;z-index: 98;}.d-header .top-tabs ul li{display: inline-block; list-style: none;padding-left: 20px;}.d-header .top-tabs ul a li{font-weight: 400;color:#787878;}.logo-container {width: 7em;float: right;height: 2.43em;position: relative;top:9px;left: -20px;}.logo-container svg {width: 100%;height: 1.50em;fill: #fa3c7a;transition-property: fill;transition-duration: 0.5s;margin-left: -15px;}.login-container{position: relative;top: -26px;right:10px;width: 185px;}.login-container .login, .login-container .cart{margin:17px 5px 5px 5px;width: 70px;}.askE{position: relative;right: 0px;}.askE h6{position: relative;top:-1px;font-size: 15px;font-family: "Avenir LT W01 85 Heavy",Helvetica,sans-serif;font-weight: 400;min-width: 120px;}.login h6,.cart h6{font-size: 15px;position: relative;bottom: -18px;left: -2px;}.login{min-width: 90px;}.cart{max-width: 52px;padding-right: 15px;z-index: 1000;}.icon-user {width: 1.20em;position: relative;top:18px}.icon-cart{width: 1.5em;} #cart-num{color:#787878;position: relative;top:-4px;right: -10px;font-size: 9px;}    .icon-askE{width: 1.34em; height: 1.2em;  background-position: -200px 0;position: relative;top:0px;}.icon-arrowD{width: 1.25em; height: .7em;  background-position: -180px -6px;position: relative;top:7px;left: 3px;margin-top: -4px;}  .search-box{position: relative;top:46px;margin-left: -60px;width: 220px}.search-box form .ampstart-input input {height: 26px; font-size: 13px; border:1px solid #cccccc; border-right:none; width:70%;margin-left: 10%;}.search-box input[type=submit] {height: 26px;margin-top: 9px;}.sub-title{font-family: "Avenir LT W01 85 Heavy",Helvetica,sans-serif;font-size: 1.05em; color:black; font-family: "Bembo W01",Georgia,"Times New Roman",serif; text-transform: none; font-weight: 400;margin-left: -27px;position: relative; top:10px;}.list-container2{margin-left: 260px;}.list-container2 .ampstart-dropdown-item {padding: 0px;}.list-container3{margin-left: 520px;}.list-container4{margin-left: 780px;width: 290px;}.list-container4 amp-img{position: relative;left:-20px;top:10px;padding-bottom: 20px;}.login .tab{z-index: 999;}.login .tab:hover > .list-container .cart{display: none;}.login .tabs {position: relative;left: -10px}  .login .tab:hover{background-color:inherit;z-index: 999;}.login .tab:hover .icon-arrowD {width: 1.25em; height: .7em; background-position: -182px -6px;}.login .tab a .icon-arrowD{position:relative; left: 92.5%;top:2px; display:block;margin: 0px;padding: 0px;background-color: none;background-position: -182px -6px;}.login .tab .icon-user{margin-left: 200px;}#username{position: relative;top:2px; left:65px;padding-left: 8px;font-size: .9em;} .login .tab .list-container{position: relative;top:10px;left: 68px;}.login .tab .list-container ul{border:1px solid #ccc;box-shadow: 0 5px 5px rgba(0,0,0,0.25);min-height:inherit;padding-bottom: 5px;min-width: 180px;}.login .tab .list-container ul li{position: relative;left: -15px;top:-12px;padding-bottom: 7px;max-width: 140px;}.login .tab .list-container ul li a{margin-top: -8px;padding-top: 7px;min-width: 220px;border-top: 1px solid #ccc; max-width: 140px;margin-left: -45px;padding-right:0px;padding-left:0px;}.login .tab .list-container ul li a span{position: relative;left: 20px;top:3px;}.occ{margin-left: -415px;width: 230px;margin-top: 15px;}#occ-fix-pic{padding-top: 20px;}#occ-fix-pic amp-img{margin-left: -30px;}#occ-fix-pic a{display: inline-block;position: relative;right: -40px;top:-20px;max-width: 180px;vertical-align: middle;}#no-left-border{border-left: 0px solid white;}#no-top-border{border-top: 0px solid white;}#no-right-border{border-right: 0px solid white;}#coll-height ul{height: 420px;position: relative;left: -630px;}.coll{position: relative;left:0px;}.coll-text{height: 70px; text-align: center;color: black;margin: 0px 25px 0px -15px;font-family: "Bembo W01", Georgia, "Times New Roman", serif;font-size: 1.04em;padding-bottom: 10px;}.coll amp-img{position: relative;left:10px;top:-15px;}.coll #t-pink{text-align: center;position: relative;left: -5px;}.list-container4 .coll #t-pink{text-align:inherit;position: relative;left: 0px;}#shop-height ul{height:440px;left:-768px;}.shop span {display: inline-block;position: relative;left: 30px;}.shop-price{padding-left: 40px;}.shop .sub-title{position: relative;left: 0px;}.modal{position: absolute;top: 33%;}    .pdp-modal-header-text {margin-bottom: 0.8em;margin-top: 0.5em;padding-bottom:0.2em;text-align: left;}.pull-right {float: right}#title-text{text-align: left;padding-left: 20px;margin-top: -100px;}.product-box{display:inline-block; width: 100%;}.product-subbox{display:inline-block;width: 49%;}.main-container{margin-top: 304px;}.breadCrumbs-container{position: relative;top:-100px;}.breadCrumbs-container h2{text-align: left;padding-left: 20px;color: #787878}.breadCrumbs-container h2 a{color: #787878}.breadCrumbs-container h2 a:hover{text-decoration: underline;}     .footer{padding-left: 80px;}.footer-join,.footer-connect, .footer-rewards{width:30%;display: inline-block;margin-bottom: -40px;}.footer-connect, .footer-rewards{position: relative;top: -55px;}.footer-sublist{width: 24%;}}       
+    @media screen and (max-width: 1000px){.m-hide{display: none;}}    
+</style>
+    
+<!--The AMP boilerplate.---->
+    <style amp-boilerplate>
+        body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+    </style>
+    <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+<body>
+    <!-- Google Tag Manager -->
+    <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-TP856JH&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+     <amp-install-serviceworker src="https://teleflorastgblog.site/PDP/service-worker.js" data-iframe-src="https://teleflorastgblog.site/PDP/service-worker.html" layout="nodisplay"></amp-install-serviceworker>
+ 
+<!-- Desktop/mobile Top Promo LightBox. this is activated when the "top-promo-container span" is clicked  ----------------------------------------->
+    <amp-lightbox id="my-lightbox" layout="nodisplay">
+        <div class="lightbox" on="tap:my-lightbox.close" role="button" tabindex="0">
+            <div class="modal" data-width="810">
+                <div class="pdp-modal-header modal-header">
+                    <h5 class="pdp-modal-header-text">Terms and Conditions<span><a href="#" data-dismiss="modal" class="pull-right icon-close icon-close-modal"></a></span></h5>
+                </div>
+                <div class="modal-body">
+                    <ul class='pop-up-text'>
+                        <li class="promobanner-slide"> Offer is available through Teleflora.com or by calling 1-800-835-3356. </li>
+                        <li class="promobanner-slide">August10 valid through August 1, 2017- August 31, 2017 </li>
+                        <li class="promobanner-slide">Offer applies to orders $50 or more.</li>
+                        <li class="promobanner-slide"> May not be combined with any other promotion and is not valid toward previous purchases. Not valid at retail locations or affiliate sites. Gift cards and taxes do not qualify for the offer. Offer terms and conditions are subject to change at any time.
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </amp-lightbox>
+
+<!-- Desktop Header / Nav Start. The desktop (and mobile) header is made up of 4 compartments  --------------------->
+    <header class="d-header fixed m-hide">
+<!-- Desktop Promo banner section 1 --- fyi:Section 1 is identical in mobile as well --->
+            <div class="top-promo-container">
+                <amp-carousel height="50"
+                              layout="fixed-height"
+                              type="slides"
+                              autoplay 
+                              delay="12000">
+                      <div class="promo-bar-container">
+                          <h3>
+                              <amp-img src="http://img.teleflora.com/image/upload/v1495127178/promotest.png"
+                                width="50"
+                                height="39"
+                                layout="fixed">
+                                </amp-img>1Welcome Shopper! Congratulations, $10 off $50 at Checkout!  <span class="ampstart-btn caps m2" on="tap:my-lightbox" role="button" tabindex="0"> click here for details</span>
+                          </h3>
+                        </div>
+                        <div class="promo-bar-container">
+                          <h3>
+                              <amp-img src="http://img.teleflora.com/image/upload/v1495127178/promotest.png"
+                                width="50"
+                                height="39"
+                                layout="fixed">
+                                </amp-img>2Welcome Shopper! Congratulations, $10 off $50 at Checkout!  <span class="ampstart-btn caps m2" on="tap:my-lightbox" role="button" tabindex="0"> click here for details</span>
+                          </h3>
+                        </div>
+                        <div class="promo-bar-container">
+                          <h3>
+                              <amp-img src="http://img.teleflora.com/image/upload/v1495127178/promotest.png"
+                                width="50"
+                                height="39"
+                                layout="fixed">
+                                </amp-img>3Welcome Shopper! Congratulations, $10 off $50 at Checkout!  <span class="ampstart-btn caps m2" on="tap:my-lightbox" role="button" tabindex="0"> click here for details</span>
+                          </h3>
+                        </div>
+                </amp-carousel>
+        </div>
+<!--Desktop Promo banner section 2. fyi:Section 2 is identical in mobile as well  ---->
+        <a href="http://www.teleflora.com/same-day-flower-delivery/cat480085">
+            <div class="promo-container"><h3>Next Day and Same Day Delivery Available On All Bouquets! Shop Now »</h3>
+            </div>
+        </a>
+<!-- Bottom two compartments of desktop header (section 3,4) Begin here ---->
+        <div id="d-nav-back">
+            <div class="container m-hide">
+<!-- desktop NAv section 3  -->
+                <div class="left-nav">
+                    <div class="top-tabs">
+                        <ul>
+                            <li>
+                                <a href="http://www.teleflora.com/"><div class="logo-container" itemprop="brand" itemscope itemtype="http://schema.org/Organization">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="1121px" height="258px" viewBox="0 0 921 208" overflow="visible" enable-background="new 0 0 921 208"><defs></defs>
+                                        <path                          d="M105.198,99.239H59.545V55.242H33.742v43.997H0v21.836h33.742v85.016c0,32.09,5.955,51.938,42.676,51.938c9.591,0,21.173-1.657,30.103-5.625l-0.992-23.489c-6.948,3.639-15.219,5.294-22.827,5.294c-22.827,0-23.157-15.878-23.157-35.726v-77.408h45.652V99.239z"/><path d="M235.795,210.726c-12.241,15.544-27.128,23.484-49.292,23.484c-28.119,0-48.628-22.825-50.613-49.619h125.047v-8.274c0-51.276-29.774-81.044-73.441-81.044c-45.651,0-79.394,33.415-79.394,81.379c0,44.99,29.773,81.378,78.401,81.378c28.78,0,50.615-8.599,68.809-32.087L235.795,210.726z M135.889,162.757c3.309-26.135,22.165-43.665,50.613-43.665c28.449,0,45.651,17.53,46.645,43.665H135.889z"/><path d="M283.404,254.055h25.802V3.967h-25.802V254.055z"/><path d="M459.375,210.726c-12.24,15.544-27.126,23.484-49.292,23.484c-28.118,0-48.628-22.825-50.614-49.619h125.048v-8.274c0-51.276-29.774-81.044-73.442-81.044c-45.649,0-79.393,33.415-79.393,81.379c0,44.99,29.773,81.378,78.401,81.378c28.78,0,50.615-8.599,68.809-32.087L459.375,210.726z M359.47,162.757c3.311-26.135,22.167-43.665,50.614-43.665c28.448,0,45.65,17.53,46.646,43.665H359.47z"/><path d="M521.212,254.055h25.805v-132.98h37.711V99.239h-37.711v-29.11c0-26.794,0.991-46.312,27.787-46.312c5.956,0,11.909,1.321,17.534,3.312l3.637-23.161C591.015,1.319,582.744,0,576.128,0c-41.684,0-54.917,26.792-54.917,64.505v34.733H487.47v21.836h33.742V254.055z"/><path d="M604.574,254.055h25.803V3.967h-25.803V254.055z"/><path d="M649.544,176.651c0,48.298,35.066,81.378,82.703,81.378c47.638,0,82.703-33.08,82.703-81.378c0-48.299-35.065-81.379-82.703-81.379C684.611,95.272,649.544,128.352,649.544,176.651z M677.333,176.651c0-32.421,21.501-57.56,54.914-57.56s54.914,25.138,54.914,57.56c0,32.422-21.501,57.558-54.914,57.558S677.333,209.073,677.333,176.651z"/><path d="M831.828,254.055h25.802v-75.421c0-35.397,13.891-57.559,45.319-57.559c4.629,0,9.594,0.655,13.894,1.983l1.656-26.136c-3.638-1.318-7.277-1.65-10.586-1.65c-25.475,0-44.657,14.221-51.608,29.439h-0.663c0-8.601-0.659-17.2-0.659-25.473h-24.479c0,10.254,1.325,22.492,1.325,36.718V254.055z"/><path d="M945.886,135.957c12.242-11.245,29.441-16.865,45.979-16.865c24.15,0,38.375,11.576,38.375,34.068v4.634h-9.922c-38.043,0-97.592,2.977-97.592,54.251c0,30.104,26.137,45.983,57.564,45.983c23.484,0,40.69-11.244,50.947-27.129h0.658c0,6.619,0,16.212,1.654,23.155h24.809c-1.325-7.932-2.316-17.856-2.316-26.792v-66.492c0-43.664-19.184-65.499-64.836-65.499c-22.498,0-45.652,7.607-61.532,23.82L945.886,135.957z M1030.24,179.627v9.928c-0.662,25.138-15.878,46.644-45.646,46.644c-19.522,0-34.076-7.284-34.076-26.8c0-20.844,21.172-29.772,53.922-29.772H1030.24z"/><path d="M1100.321,255.727c11.104,0,20.591-8.628,20.591-20.431c0-11.7-9.487-20.323-20.591-20.323  c-11.209,0-20.697,8.623-20.697,20.323C1079.624,247.099,1089.112,255.727,1100.321,255.727z M1083.722,235.296  c0-9.65,7.275-16.927,16.599-16.927c9.217,0,16.493,7.277,16.493,16.927c0,9.81-7.276,17.028-16.493,17.028  C1090.998,252.324,1083.722,245.106,1083.722,235.296z M1096.01,236.908h4.098l6.194,10.191h3.99l-6.687-10.348  c3.456-0.432,6.097-2.264,6.097-6.469c0-4.636-2.748-6.686-8.303-6.686h-8.95v23.503h3.561V236.908z M1096.01,233.891v-7.273h4.847  c2.482,0,5.125,0.538,5.125,3.451c0,3.608-2.695,3.822-5.713,3.822H1096.01z"/>
+                                    </svg>
+                                    </div></a>
+                            </li>
+                            <a href="http://www.teleflora.com/InternationalFlowerDelivery?countryName=Default&defaultCountry=Default"><li>International Delivery></li></a>
+                            <a href="tel:(800)493-5610"><li>(800) 493-5610</li></a>
+                            <li>
+                                <div class="login-container">
+                                    <a href="https://www.teleflora.com/cart">
+                                        <div class="cart">
+                                            <div class="icon-cart">
+                    <!-- hide cart-num display as default-->
+                                                <span id="cart-num">1</span>
+                                            </div>
+                                            <h6>Cart</h6>
+                                        </div>
+                                    </a>
+                    <!-- This link changed when signed in-->
+                                    <a href="https://www.teleflora.com/account/info.jsp">
+                                        <div class="login">
+                                            <div id="left15" class="icon-user"></div>
+                    <!-- default when not logged in is <h6>Log In</h6>-->
+                    <!-- When login in it changes to account name  -->
+                                            <div class="tabs">
+                                                <div class="tab active">
+                                                    <a href="#">
+                                                        <h6 id="username">Matthew<div class="icon-arrowD"></div> </h6>
+                                                    </a>
+                                                    <div class="list-container">
+                                                        <ul>
+                                                            <li><a id="no-top-border" href="https://www.teleflora.com/account/order-history.jsp"><span>Order History</span></a></li>
+                                                            <li><a href="https://www.teleflora.com/account/info.jsp"><span>Account Info</span></a></li>
+                                                            <li><a href="https://www.teleflora.com/account/password.jsp"><span>Change Password</span></a></li>
+                                                            <li><a href="https://www.teleflora.com/account/reminders.jsp"><span>Reminders</span></a></li>
+                                                            <li><a href="https://www.teleflora.com/account/addressBook.jsp"><span>Address Book</span></a></li>
+                                                            <li><a href="https://www.teleflora.com/rewards/rewards.jsp"><span>Teleflora Rewards</span></a></li>
+                                                            <li><a href="https://www.teleflora.com/account/subscriptions.jsp"><span>Email Preferences</span></a></li>
+                                                            <li><a href="https://www.teleflora.com/account/logout.jsp"><span>Log Out</span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="search-box">
+                                    <form method="GET"
+                                          class="p2"
+                                          action="https://www.teleflora.com/browse"
+                                          target="_top">
+                                        <div class="ampstart-input">
+                                            <input type="search"
+                                                   placeholder="Search"
+                                                   name="Ntt">
+                                        </div>
+                                        <input id="submit" type="submit" value="" class="ampstart-btn caps">
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+<!-- Desktop Nav section 4 ---------------->
+                    <div class="tabs">
+                        <div class="tab">
+                            <a id="center-dod" href="http://www.teleflora.com/deal-of-the-day/?prodID=prod220003">Deal of the Day</a>
+                        </div>
+                        <div class="tab active">
+                            <a href="http://www.teleflora.com/birthday-flowers?catID=cat210012">Birthday<div id="right91" class="icon-arrowD"></div></a>
+                            <div class="list-container">
+                                <ul>
+                                    <li><span class="sub-title">Birthday Flowers &amp; Gifts</span><div class="dividerline5"></div></li>
+                                    <li><a href="http://www.teleflora.com/birthday-flowers/for-her?catID=cat210014">For Her</a></li>
+                                    <li><a href="http://www.teleflora.com/birthday-flowers/for-him?catID=cat210041">For Him</a></li>
+                                    <li><a href="http://www.teleflora.com/birthday-flowers/for-kids?catID=cat210059">For Kids</a></li>
+                                    <li><a href="http://www.teleflora.com/birthday-flowers/sweet-16?catID=cat210061">Sweet 16</a></li>
+                                    <li><a href="http://www.teleflora.com/birthday-flowers/quinceanera?catID=cat210060">Quincea&ntilde;era</a></li>
+                                    <li><a href="http://www.teleflora.com/gift-box-bouquets?catID=cat480014">Gift Box Bouquets</a></li>
+                                    <li><a id="t-pink" href="http://www.teleflora.com/birthday-flowers?catID=cat210012">Shop all Birthday</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab active">
+                            <a href="http://www.teleflora.com/funeral-sympathy-collection">Sympathy<div id="right96" class="icon-arrowD"></div></a>
+                            <div class="list-container">
+                                <ul>
+                                    <li><span class="sub-title">For Services</span><div class="dividerline5"></div></li>
+                                    <li><a href="http://www.teleflora.com/funeral-flowers/standing-sprays-wreaths?catID=cat210122">Standing Sprays &amp; Wreaths</a></li>
+                                    <li><a href="http://www.teleflora.com/funeral-flowers/funeral-bouquets?catID=cat210124">Funeral Service Bouquets</a></li>
+                                    <li><a href="http://www.teleflora.com/funeral-flowers/photo-urn-tributes?catID=cat480017">Photo &amp; Urns Tributes</a></li>
+                                    <li><a href="http://www.teleflora.com/funeral-flowers/casket-flowers?catID=cat480016">For Caskets</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-container list-container2">
+                                <ul>
+                                    <li><span class="sub-title">For the Home</span><div class="dividerline5"></div></li>
+                                    <li><a href="http://www.teleflora.com/sympathy-flowers/bouquets?catID=cat210130">Sympathy Bouquets</a></li>
+                                    <li><a href="http://www.teleflora.com/sympathy-flowers/sympathy-plants?catID=cat210129">Sympathy Plants</a></li>
+                                    <li><a href="http://www.teleflora.com/sympathy-flowers/floral-baskets?catID=cat210131">Sympathy Floral Baskets</a></li>
+                                     <li><a href="http://www.teleflora.com/sympathy-flowers/fruit-food?catID=cat210188">Fruit &amp; Food Baskets</a></li>
+                                    <li><a id="t-pink" href="http://www.teleflora.com/funeral-sympathy-collection">Shop Funeral &amp; Sympathy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab active">
+                            <a href="http://www.teleflora.com/get-well-flowers?catID=cat210073">Get Well<div id="right91" class="icon-arrowD"></div></a>
+                            <div class="list-container">
+                                <ul>
+                                    <li><span class="sub-title">Get Well Flowers</span><div class="dividerline5"></div></li>
+                                    <li><a href="http://www.teleflora.com/get-well-flowers?catID=cat210073">Shop all get well flowers</a></li>
+                                    <li><a href="http://www.teleflora.com/get-well-flowers/get-well-for-him?catID=cat210075">Get Well for Him</a></li>
+                                    <li><a href="http://www.teleflora.com/get-well-flowers/get-well-for-her?catID=cat210074">Get Well her</a></li>
+                                    <li><a href="http://www.teleflora.com/get-well-flowers/get-well-for-kids?catID=cat210076">Get Well for Kids</a></li>
+                                    <li><a id="t-pink" href="http://www.teleflora.com/get-well-flowers?catID=cat210073">Shop all Get Well Flowers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab active">
+                            <a href="http://www.teleflora.com/occasions?catID=cat210050">Occasions<div id="right105" class="icon-arrowD"></div></a>
+                            <div class="list-container">
+                                <ul id="no-right-border" class="occ">
+                                    <li><span class="sub-title">For Occasions</span><div class="dividerline5"></div></li>
+                                    <li><a href="http://www.teleflora.com/new-baby-flowers?catID=cat210097">NEw Baby</a></li>
+                                    <li><a href="http://www.teleflora.com/love-romance-flowers?catID=cat210087">Love &amp; Romance</a></li>
+                                    <li><a href="http://www.teleflora.com/thinking-of-you-flowers?catID=cat210115">thinking of you</a></li>
+                                    <li><a href="http://www.teleflora.com/thank-you-flowers?catID=cat210110">Thank you</a></li>
+                                    <li><a href="http://www.teleflora.com/just-because-flowers?catID=cat210085">Just Because</a></li>
+                                    <li><a href="http://www.teleflora.com/get-well-flowers?catID=cat210073">Get Well</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-container list-container2">
+                                <ul id="no-left-border" class="occ">
+                                    <span id="down22"><div class="dividerline6"></div><li><a href="http://www.teleflora.com/birthday-flowers?catID=cat210012">Birthday</a></li>
+                                    <li><a href="http://www.teleflora.com/congratulations-flowers?catID=cat210066">Congratulations</a></li>
+                                    <li><a href="http://www.teleflora.com/im-sorry-flowers?catID=cat210082">I'm Sorry</a></li>
+                                    <li><a href="http://www.teleflora.com/funeral-sympathy-collection">Sympathy &amp; funeral</a></li>
+                                    <li><a href="http://www.teleflora.com/anniversary-flowers?catID=cat440206">Anniversary</a></li>
+                                    <li><a id="t-pink" href="http://www.teleflora.com/occasions?catID=cat210050">Shop All Occasions</a></li></span>
+                                </ul>
+                            </div>
+                             <div class="list-container list-container3">
+                                <ul class="occ">
+                                     <li><span class="sub-title">
+                                         Upcoming Occasions</span><div class="dividerline5"></div></li>
+                                    <li  id="occ-fix-pic">
+                                        <amp-img src="http://webproducer.telefloramarketing.com/amp/img/cal-icon.jpg"
+                                                 width="35"                                     height="50"                                     layout="fixed">
+                                        </amp-img>
+                                        <a href="http://www.teleflora.com/womens-equality-day-flowers?catID=cat440220">Women's Equality Day</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="coll-height" class="tab active coll">
+                            <a href="http://www.teleflora.com/lets-celebrate?categoryId=cat870008">Collections<div id="right120" class="icon-arrowD"></div></a>
+                            <div class="list-container">
+                                <ul class="coll">
+                                    <li><a href="http://www.teleflora.com/lets-celebrate?categoryId=cat870008">
+                                        <amp-img src="http://img.teleflora.com/image/upload/fl_lossy,f_auto,q_auto:eco/prod/banners/TF13336_LetsCelebrate_Small_Promo_208x248.jpg"
+                                                 width="208"
+                                                 height="248"
+                                                 layout="fixed">
+                                        </amp-img>
+                                        </a>
+                                    </li>
+                                    <li class="coll-text">Make your birthday blooms stand out this season</li>
+                                    <li><a id="t-pink" href="http://www.teleflora.com/lets-celebrate?categoryId=cat870008">Shop Let's Celebrate</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-container list-container2">
+                                <ul class="coll">
+                                    <li><a href="http://www.teleflora.com/teleflora-exclusives?catID=cat210127">
+                                        <amp-img src="http://img.teleflora.com/image/upload/fl_lossy,f_auto,q_auto:eco/prod/banners/TF10870_TFE_Small_Promo_208x248.jpg"
+                                                 width="208"
+                                                 height="248"
+                                                 layout="fixed">
+                                        </amp-img>
+                                        </a>
+                                    </li>
+                                    <li class="coll-text">Bright bouquets in unique vases that you'll only find here.</li>
+                                    <li><a id="t-pink" href="http://www.teleflora.com/teleflora-exclusives?catID=cat210127">Teleflora Exclusives</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-container list-container3">
+                                <ul class="coll">
+                                    <li><a href="http://www.teleflora.com/gardens-of-the-world?catID=cat730021">
+                                        <amp-img src="http://img.teleflora.com/image/upload/fl_lossy,f_auto,q_auto:eco/prod/banners/TF10870_GOTW_Small_Promo_208x248.jpg"
+                                                 width="208"
+                                                 height="248"
+                                                 layout="fixed">
+                                        </amp-img>
+                                        </a>
+                                    </li>
+                                    <li class="coll-text">A stunning collection from around the globe.</li>
+                                    <li><a id="t-pink" href="http://www.teleflora.com/gardens-of-the-world?catID=cat730021">Travel Arrangements</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-container list-container4">
+                                <ul class="coll">
+                                    <li><span class="sub-title">More Collections</span><div class="dividerline5"></div></li>
+                                    <li><a href="http://www.teleflora.com/monets-garden?catID=cat730013">Monet's Garden</a></li>
+                                    <li><a href="http://www.teleflora.com/romanceofroses?categoryId=cat730020">Romance of Roses</a></li>
+                                    <li><a href="http://www.teleflora.com/rooms-with-a-bloom?catID=cat220037">Rooms with a Bloom</a></li>
+                                    <li><a href="http://www.teleflora.com/bestofthebunch?categoryId=cat790001">P.S. I Love You</a></li>
+                                    <li><a href="http://www.teleflora.com/collections?catID=cat730011">Best Of The Brunch</a></li>
+                                    <li><a id="t-pink" href="http://www.teleflora.com/collections?catID=cat730011">Shop All Collections</a></li>
+                                </ul>
+                            </div>   
+                        </div>
+                        <div id="shop-height" class="tab active">
+                            <a href="">Shop By<div id="right85" class="icon-arrowD"></div></a>
+                            <div class="list-container">
+                                <ul>
+                                    <li><span class="sub-title">Favorites</span><div class="dividerline5"></div></li>
+                                    <li><a href="http://www.teleflora.com/summer-flowers?catID=cat210192">Summer Flowers</a></li>
+                                    <li><a href="http://www.teleflora.com/best-sellers?catID=cat480011">Best Sellers</a></li>
+                                    <li><a href="http://www.teleflora.com/same-day-flower-delivery?catID=cat480085">Same Day Delivery</a></li>
+                                    <li><a href="http://www.teleflora.com/whats-new/?catID=cat480009">What's New</a></li>
+                                    <li><a href="http://www.teleflora.com/deal-of-the-day/?prodID=prod220003">Deal of the Day</a></li>
+                                    <li><a href="http://www.teleflora.com/flowers-by-recipient/?catID=cat480074">Flowers by Recipient</a></li>
+                                    <li><a href="http://www.teleflora.com/zen-arrangements?catID=cat480010">Zen Arrangements</a></li>
+                                    <li><a href="http://www.teleflora.com/bestselling-plants?catID=cat210183">Shop Plants</a></li>
+                                    <li><a href="http://www.teleflora.com/all-gift-baskets?catID=cat540005">Shop Gift Baskets</a></li>
+                                    <li><a href="http://www.teleflora.com/InternationalFlowerDelivery">International Delivery</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-container list-container2">
+                                <ul>
+                                    <li><span class="sub-title">Color</span><div class="dividerline5"></div></li>
+                                    <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/yellow-bouquets?catID=cat210178"><div class="shop-colorBox yellow"></div>Yellow Flowers</a></li>
+                                    <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/white-bouquets?catID=cat210177"><div class="shop-colorBox white"></div>White Flowers</a></li>
+                                    <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/red-bouquets?catID=cat210176"><div class="shop-colorBox red"></div>Red Flowers</a></li>
+                                    <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/purple-bouquets?catID=cat210175"><div class="shop-colorBox purple"></div>Purple Flowers</a></li>
+                                    <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/pink-bouquets?catID=cat210174"><div class="shop-colorBox pink"></div>Pink Flowers</a></li>
+                                    <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/orange-bouquets?catID=cat210173"><div class="shop-colorBox orange"></div>Orange Flowers</a></li>
+                                    <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/green-bouquets?catID=cat210172"><div class="shop-colorBox green"></div>Green Flowers</a></li>
+                                    <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/blue-bouquets?catID=cat210171"><div class="shop-colorBox blue"></div>Blue Flowers</a></li>
+                                    <li><a id="t-pink" href="">Shop All Occasions</a></li>
+                                </ul>
+                            </div>
+                            <div class="list-container list-container3">
+                                <ul>
+                                    <li><span class="sub-title">Flower Type</span><div class="dividerline5"></div></li>
+                                    <li><a href="http://www.teleflora.com/roses?catID=cat210157">Roses</a></li>
+                                    <li><a href="http://www.teleflora.com/lilies?catID=cat210153">Lilies</a></li>
+                                    <li><a href="http://www.teleflora.com/tulips?catID=cat210168">Tulips</a></li>
+                                    <li><a href="http://www.teleflora.com/orchids?catID=cat210155">Orchilds</a></li>
+                                    <li><a href="http://www.teleflora.com/daisies?catID=cat210146">Daisies</a></li>
+                                    <li><a href="http://www.teleflora.com/carnations?catID=cat210144">carnations</a></li>
+                                    <li><a href="http://www.teleflora.com/sunflowers?catID=cat210167">sunflowers</a></li>
+                                    <li><a href="http://www.teleflora.com/tropical-flowers?catID=cat210169">tropical</a></li>
+                                    <li><a id="t-pink" href="http://www.teleflora.com/flower-by-type/?catID=cat210139">Shop All Flower Types</a></li> 
+                                </ul>
+                            </div>
+                            <div class="list-container list-container4">
+                                <ul class="shop">
+                                    <li><span class="sub-title">Bestseller Products</span><div class="dividerline5"></div></li>
+                                    <li>
+                                        <span>
+                                            <a href="http://www.teleflora.com/flower-arrangement/get-better-bouquet-by-teleflora?prodID=P_TEV52-3A&skuId=TEV52-3A">
+                                            <amp-img src="http://img.teleflora.com/images/o_0/l_flowers:tev52-3a,pg_6/w_160,h_200,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:200/flowers/tev52-3a/GetBetterBouquetbyTeleflora"                                       width="96"                                           height="120"                                     layout="fixed">
+                                            </amp-img>
+                                         <a href="http://www.teleflora.com/flower-arrangement/get-better-bouquet-by-teleflora?prodID=P_TEV52-3A&skuId=TEV52-3A">$59.95</a>
+                                            </a>
+                                        </span>
+                                        <span class="shop-price">
+                                        <a href="http://www.teleflora.com/bouquet/fashionista-blooms?prodID=P_T155-1a&skuId=T155-1A">
+                                            <amp-img src="http://img.teleflora.com/images/o_0/l_flowers:t155-1a,pg_6/w_160,h_200,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:200/flowers/t155-1a/FashionistaBlooms"                                       width="96"                                           height="120"                                     layout="fixed">
+                                            </amp-img>
+                                            <a href="http://www.teleflora.com/bouquet/fashionista-blooms?prodID=P_T155-1a&skuId=T155-1A">$69.95</a>
+                                            </a>
+                                        </span>
+                                     </li>
+                                     <li>
+                                        <span>
+                                        <a href="http://www.teleflora.com/bouquet/telefloras-in-love-with-lime-bouquet?prodID=P_Tev44-1a&skuId=TEV44-1A">
+                                            <amp-img src="http://img.teleflora.com/images/o_0/l_flowers:tev44-1a,pg_6/w_160,h_200,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:200/flowers/tev44-1a/Teleflora'sInLoveWithLimeBouquet"                                       width="96"                                           height="120"                                     layout="fixed">
+                                            </amp-img>
+                                            <a href="http://www.teleflora.com/bouquet/telefloras-in-love-with-lime-bouquet?prodID=P_Tev44-1a&skuId=TEV44-1A">$49.95</a>
+                                         </a>
+                                         </span>
+                                         <span class="shop-price">
+                                        <a href="http://www.teleflora.com/bouquet/beautiful-in-blue?prodID=P_T209-3a&skuId=T209-3A">
+                                            <amp-img src="http://img.teleflora.com/images/o_0/l_flowers:t209-3a,pg_6/w_160,h_200,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:200/flowers/t209-3a/BeautifulinBlue"                                       width="96"                                           height="120"                                     layout="fixed">
+                                            </amp-img>
+                                            <a href="http://www.teleflora.com/bouquet/beautiful-in-blue?prodID=P_T209-3a&skuId=T209-3A">$54.95</a>
+                                             </a>
+                                         </span>
+                                    </li>
+                                </ul>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- Mobile Header / Nav Start - Used AMP Sidebar ---------------------------------------------------------->
+    <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4 d-hide" id="fixed">
+<!-- Mobile Promo banner section 1  --- identical to desktop section 1 ---->
+        <div class="top-promo-container">     
+            <amp-carousel height="50"
+                          layout="fixed-height"
+                          type="slides"
+                          autoplay 
+                          delay="12000">
+                 <div class="promo-bar-container">
+                        <h3><amp-img src="http://img.teleflora.com/image/upload/v1495127178/promotest.png"
+                                width="50"
+                                height="39"
+                                layout="fixed">
+                                </amp-img>Welcome Shopper! Congratulations, $10 off $50 at Checkout!
+                            <span class="ampstart-btn caps m2" on="tap:my-lightbox" role="button" tabindex="0">click here for details</span></h3>
+                    </div>
+                    <div class="promo-bar-container">
+                        <h3><amp-img src="http://img.teleflora.com/image/upload/v1495127178/promotest.png"
+                                width="50"
+                                height="39"
+                                layout="fixed">
+                                </amp-img>#222! You did it! Buy more now.<span class="ampstart-btn caps m2" on="tap:my-lightbox" role="button" tabindex="0"> click here for details</span></h3>
+                    </div>
+                    <div class="promo-bar-container">
+                        <h3><amp-img src="http://img.teleflora.com/image/upload/v1495127178/promotest.png"
+                                width="50"
+                                height="39"
+                                layout="fixed">
+                                </amp-img>#333 slide! Congratulations, you deserve it!<span class="ampstart-btn caps m2" on="tap:my-lightbox" role="button" tabindex="0">click here for details</span></h3>
+                    </div>
+            </amp-carousel>
+        </div>
+<!-- Mobile Promo banner section 2 --- identical to desktop section 2  -->
+        <a href="http://www.teleflora.com/same-day-flower-delivery/cat480085">
+            <div class="promo-container">
+            <h3>Next Day and Same Day Delivery Available On All Bouquets! Shop Now »</h3>
+            </div>
+        </a>   
+<!-- Mobile Main Menu Nav -- menu button, logo, login/cart ------>
+        <div role="button" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger">
+            <div class="trigger-container">
+                <svg version="1.1" id="menu-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="45px" height="45px" viewBox="0 0 43 43" enable-background="new 0 0 300 132" xml:space="preserve">
+                    <g id="Layer_1_1_"><path fill="#231F20" d="M32.515,3.688c0,1.569-1.272,2.841 2.841,2.841H2.841C1.273,6.529,0,5.257,0,3.688l0,0
+                        c0-1.569,1.272-2.841,2.841-2.841h26.833C31.243,0.846,32.515,2.118,32.515,3.688L32.515,3.688z"/><path fill="#231F20" d="M32.515,13.632c0,1.569-1.272,2.841-2.841,2.841H2.841C1.273,16.473,0,15.201,0,13.632l0,0 c0-1.568,1.272-2.841,2.841-2.841h26.833C31.243,10.791,32.515,12.064,32.515,13.632L32.515,13.632z"/><path fill="#231F20" d="M32.515,23.576c0,1.568-1.272,2.841-2.841,2.841H2.841C1.273,26.417,0,25.145,0,23.576l0,0 c0-1.569,1.272-2.841,2.841-2.841h26.833C31.243,20.736,32.515,22.007,32.515,23.576L32.515,23.576z"/>
+                    </g>
+                </svg>
+                <div class="logo-container" itemprop="brand" itemscope itemtype="http://schema.org/Organization">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1121px" height="258px" viewBox="0 0 1121 258" overflow="visible" enable-background="new 0 0 1121 258"><defs></defs>
+                        <path d="M105.198,99.239H59.545V55.242H33.742v43.997H0v21.836h33.742v85.016c0,32.09,5.955,51.938,42.676,51.938c9.591,0,21.173-1.657,30.103-5.625l-0.992-23.489c-6.948,3.639-15.219,5.294-22.827,5.294c-22.827,0-23.157-15.878-23.157-35.726v-77.408h45.652V99.239z"/><path d="M235.795,210.726c-12.241,15.544-27.128,23.484-49.292,23.484c-28.119,0-48.628-22.825-50.613-49.619h125.047v-8.274c0-51.276-29.774-81.044-73.441-81.044c-45.651,0-79.394,33.415-79.394,81.379c0,44.99,29.773,81.378,78.401,81.378c28.78,0,50.615-8.599,68.809-32.087L235.795,210.726z M135.889,162.757c3.309-26.135,22.165-43.665,50.613-43.665c28.449,0,45.651,17.53,46.645,43.665H135.889z"/><path d="M283.404,254.055h25.802V3.967h-25.802V254.055z"/><path d="M459.375,210.726c-12.24,15.544-27.126,23.484-49.292,23.484c-28.118,0-48.628-22.825-50.614-49.619h125.048v-8.274c0-51.276-29.774-81.044-73.442-81.044c-45.649,0-79.393,33.415-79.393,81.379c0,44.99,29.773,81.378,78.401,81.378c28.78,0,50.615-8.599,68.809-32.087L459.375,210.726z M359.47,162.757c3.311-26.135,22.167-43.665,50.614-43.665c28.448,0,45.65,17.53,46.646,43.665H359.47z"/><path d="M521.212,254.055h25.805v-132.98h37.711V99.239h-37.711v-29.11c0-26.794,0.991-46.312,27.787-46.312c5.956,0,11.909,1.321,17.534,3.312l3.637-23.161C591.015,1.319,582.744,0,576.128,0c-41.684,0-54.917,26.792-54.917,64.505v34.733H487.47v21.836h33.742V254.055z"/><path d="M604.574,254.055h25.803V3.967h-25.803V254.055z"/><path d="M649.544,176.651c0,48.298,35.066,81.378,82.703,81.378c47.638,0,82.703-33.08,82.703-81.378c0-48.299-35.065-81.379-82.703-81.379C684.611,95.272,649.544,128.352,649.544,176.651z M677.333,176.651c0-32.421,21.501-57.56,54.914-57.56s54.914,25.138,54.914,57.56c0,32.422-21.501,57.558-54.914,57.558S677.333,209.073,677.333,176.651z"/><path d="M831.828,254.055h25.802v-75.421c0-35.397,13.891-57.559,45.319-57.559c4.629,0,9.594,0.655,13.894,1.983l1.656-26.136c-3.638-1.318-7.277-1.65-10.586-1.65c-25.475,0-44.657,14.221-51.608,29.439h-0.663c0-8.601-0.659-17.2-0.659-25.473h-24.479c0,10.254,1.325,22.492,1.325,36.718V254.055z"/><path d="M945.886,135.957c12.242-11.245,29.441-16.865,45.979-16.865c24.15,0,38.375,11.576,38.375,34.068v4.634h-9.922c-38.043,0-97.592,2.977-97.592,54.251c0,30.104,26.137,45.983,57.564,45.983c23.484,0,40.69-11.244,50.947-27.129h0.658c0,6.619,0,16.212,1.654,23.155h24.809c-1.325-7.932-2.316-17.856-2.316-26.792v-66.492c0-43.664-19.184-65.499-64.836-65.499c-22.498,0-45.652,7.607-61.532,23.82L945.886,135.957z M1030.24,179.627v9.928c-0.662,25.138-15.878,46.644-45.646,46.644c-19.522,0-34.076-7.284-34.076-26.8c0-20.844,21.172-29.772,53.922-29.772H1030.24z"/><path d="M1100.321,255.727c11.104,0,20.591-8.628,20.591-20.431c0-11.7-9.487-20.323-20.591-20.323  c-11.209,0-20.697,8.623-20.697,20.323C1079.624,247.099,1089.112,255.727,1100.321,255.727z M1083.722,235.296  c0-9.65,7.275-16.927,16.599-16.927c9.217,0,16.493,7.277,16.493,16.927c0,9.81-7.276,17.028-16.493,17.028  C1090.998,252.324,1083.722,245.106,1083.722,235.296z M1096.01,236.908h4.098l6.194,10.191h3.99l-6.687-10.348  c3.456-0.432,6.097-2.264,6.097-6.469c0-4.636-2.748-6.686-8.303-6.686h-8.95v23.503h3.561V236.908z M1096.01,233.891v-7.273h4.847  c2.482,0,5.125,0.538,5.125,3.451c0,3.608-2.695,3.822-5.713,3.822H1096.01z"/>
+                    </svg>
+                </div>
+                <h2>MENU</h2>
+            </div>
+        </div>
+        <div class="login-container">
+        <!-- This link changed when signed in-->
+            <a href="https://www.teleflora.com/account/info.jsp">
+                <div class="login">
+                    <div class="icon-user"></div>
+<!--                    <h6>Log In</h6>-->
+                    <h6 id="username">Matthew</h6>
+               </div>
+            </a> 
+            <a href="https://www.teleflora.com/cart">
+                <div class="cart">
+                    <div class="icon-cart"></div>
+                     <span id="cart-num">1</span>
+                    <h6>Cart</h6>
+                </div>
+            </a>
+        </div>
+  </header>
+<!-- Mobile Nav (opened) - AMP Sidebar ---  This is the side nav that opens when the menu button in section 3 is clicked---->
+    <amp-sidebar id="header-sidebar" layout="nodisplay">
+        <div id="x-icon" role="button" on="tap:header-sidebar.toggle" tabindex="0">
+            <h2>Close Menu</h2>
+            <div id="left-arrow">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="202px" viewBox="0 0 300 132" enable-background="new 0 0 300 132" xml:space="default">
+                    <g id="Layer_1_1_">
+                        <polyline fill="none" stroke="#FA3C7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+                        142.25,10.25 137.75,5.717 142.25,1.75 	"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <nav class="ampstart-sidebar-nav ampstart-nav">
+            <ul class="nav1">
+                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/deal-of-the-day/?prodID=prod220003">Deal of the Day</a></li>
+                <li class="ampstart-dropdown-item"><amp-accordion>
+                    <section><h4 class="nav-accord">Birthday<div class="icon-arrowD"></div></h4>
+                            <figure id="down10">
+                            <h2>Birthday Flowers &amp; Gifts</h2>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/birthday-flowers?catID=cat210012">Birthday</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/birthday-flowers/for-her?catID=cat210014">For Her</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/birthday-flowers/for-him?catID=cat210041">For him</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/birthday-flowers/for-kids?catID=cat210059">for kids</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/birthday-flowers/sweet-16?catID=cat210061">sweet 16</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/birthday-flowers/quinceanera?catID=cat210060">Quinceañera</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/birthday-flowers/gift-box-bouquets?catID=cat480014">Gift Box Bouquets</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/birthday-flowers?catID=cat210012" class="figcaption3"><h2>Shop all Birthday</h2></a></li>
+                            <div class="dividerline3"></div> 
+                            </figure>
+                        </section>
+                    </amp-accordion></li>
+                <li class="ampstart-dropdown-item"><amp-accordion>
+                        <section><h4 class="nav-accord">sympathy<div class="icon-arrowD"></div></h4>
+                            <figure id="down10">
+                            <h2>For Services</h2>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/funeral-flowers/standing-sprays-wreaths?catID=cat210122">Standing Sprays &amp; <span id="right19">wreaths</span></a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/funeral-flowers/funeral-bouquets?catID=cat210124">Funeral service bouquets</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/funeral-flowers/photo-urn-tributes?catID=cat480017">Photo &amp; urns tributes</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/funeral-flowers/casket-flowers?catID=cat480016">for caskets</a></li>
+                            <div class="dividerline3"></div>
+                                <h2>For the Home</h2>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/sympathy-flowers/bouquets?catID=cat210130">sympathy Bouquets</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/sympathy-flowers/sympathy-plants?catID=cat210129">sympathy Plants</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/sympathy-flowers/floral-baskets?catID=cat210131">sympathy Floral Baskets</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/sympathy-flowers/fruit-food?catID=cat210188">fruit and food baskets</a></li>
+                                 <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/funeral-sympathy-collection" class="figcaption3"><h2>Shop all Sympathy</h2></a></li>
+                            <div class="dividerline3"></div> 
+                            </figure>
+                        </section>
+                    </amp-accordion></li>
+                <li class="ampstart-dropdown-item"><amp-accordion>
+                        <section><h4 class="nav-accord">get Well<div class="icon-arrowD"></div></h4>
+                            <figure id="down10">
+                            <h2>Get Well Flowers</h2>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/get-well-flowers?catID=cat210073">Shop all get well <span id="right19">flowers</span></a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/get-well-flowers/get-well-for-him?catID=cat210075">Get well for him</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/get-well-flowers/get-well-for-her?catID=cat210074">Get well for her</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/get-well-flowers/get-well-for-kids?catID=cat210076">Get Well for Kids</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/get-well-flowers?catID=cat210073" class="figcaption3"><h2>Shop all Get Well flowers</h2></a></li>
+                            <div class="dividerline3"></div> 
+                            </figure>
+                        </section>
+                    </amp-accordion></li>
+                <li class="ampstart-dropdown-item"><amp-accordion>
+                        <section><h4 class="nav-accord">occasions<div class="icon-arrowD"></div></h4>
+                            <figure id="down10">
+                            <h2>Favorites</h2>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/new-baby-flowers?catID=cat210097">New Baby</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/love-romance-flowers?catID=cat210087">love &amp; Romance</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/thinking-of-you-flowers?catID=cat210115">thinking of you</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/thank-you-flowers?catID=cat210110">Thank you</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/just-because-flowers?catID=cat210085">Just Because</a></li>
+                                 <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/get-well-flowers?catID=cat210073">Get Well</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/birthday-flowers?catID=cat210012">Birthday</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/congratulations-flowers?catID=cat210066">Congratulations</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/im-sorry-flowers?catID=cat210082">I'm Sorry</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/funeral-sympathy-collection">Sympathy &amp; funeral</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/anniversary-flowers?catID=cat440206">Anniversary</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/occasions?catID=cat210050" class="figcaption3"><h2>Shop all Occasions</h2></a></li>
+                            <div class="dividerline3"></div> 
+                            </figure>
+                        </section>
+                    </amp-accordion></li>
+                <li class="ampstart-dropdown-item"> 
+                    <amp-accordion>
+                        <section><h4 class="nav-accord">shop by<div class="icon-arrowD"></div></h4>
+                            <figure id="down10">
+                            <h2>Favorites</h2>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/summer-flowers?catID=cat210192">summer flowers</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/best-sellers?catID=cat480011">best sellers</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/same-day-flower-delivery?catID=cat480085">same day delivery</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/whats-new/?catID=cat480009">What's New</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/deal-of-the-day/?prodID=prod220003">deal of the Day</a></li>
+                                 <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/flowers-by-recipient/?catID=cat480074">Flowers by recipient</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/zen-arrangements?catID=cat480010">Zen Arrangements</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/bestselling-plants?catID=cat210183">Shop Plants</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/all-gift-baskets?catID=cat540005">Shop Gift Baskets</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/InternationalFlowerDelivery">International Delivery</a></li>
+                        <h2>Color</h2>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/yellow-bouquets?catID=cat210178"><div class="shop-colorBox yellow"></div>Yellow Flowers</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/white-bouquets?catID=cat210177"><div class="shop-colorBox white"></div>White Flowers</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/red-bouquets?catID=cat210176"><div class="shop-colorBox red"></div>Red Flowers</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/purple-bouquets?catID=cat210175"><div class="shop-colorBox purple"></div>Purple Flowers</a></li>
+                                 <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/pink-bouquets?catID=cat210174"><div class="shop-colorBox pink"></div>Pink Flowers</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/orange-bouquets?catID=cat210173"><div class="shop-colorBox orange"></div>Orange Flowers</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/green-bouquets?catID=cat210172"><div class="shop-colorBox green"></div>Green Flowers</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/blue-bouquets?catID=cat210171"><div class="shop-colorBox blue"></div>Blue Flowers</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/flowers-by-color?catID=cat210170" class="figcaption3"><h2>Shop all Colors</h2></a></li>
+                        <h2>Flower Type</h2>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/roses?catID=cat210157">roses</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/lilies?catID=cat210153">lilies</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/tulips?catID=cat210168">tulips</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/orchids?catID=cat210155">orchids</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/daisies?catID=cat210146">Daisies</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/carnations?catID=cat210144">carnations</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/sunflowers?catID=cat210167">sunflowers</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/tropical-flowers?catID=cat210169">tropicals</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/flower-by-type/?catID=cat210139" class="figcaption3"><h2>Shop all Flower Types</h2></a></li>
+                        <h2>Best Sellers</h2>
+                                <div class="shop-picRow">
+                                    <a href="http://www.teleflora.com/deal-of-the-day?prodID=prod220003&skuId=sku220006">
+                                        <amp-img class="shopPic" src="http://img.teleflora.com/image/upload/fl_lossy,f_auto,q_auto:eco/prod/banners/SummerDOTD_cta.jpg" width="60" height="70" layout="responsive" alt="an image">
+                                        </amp-img>
+
+                                    </a>
+                                    <a href="http://www.teleflora.com/bouquet/arrive-in-style?prodID=P_T55-2a&skuId=T55-2A" id="up20">
+                                        <amp-img class="shopPic" src="http://img.teleflora.com/images/o_0/l_flowers:t55-2a,pg_6/w_160,h_200,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:200/flowers/t55-2a/ArriveInStyle" width="60" height="70" layout="responsive" alt="an image">
+                                        </amp-img>
+                                    </a>
+                                    <a href="http://www.teleflora.com/deal-of-the-day?prodID=prod220003&skuId=sku220006"><div class="shop-picCap">$50.00</div></a>
+                                    <a href="http://www.teleflora.com/bouquet/arrive-in-style?prodID=P_T55-2a&skuId=T55-2A"><div class="shop-picCap">$39.95</div></a>
+                                </div>
+                                <div class="dividerline3"></div>
+                                <div class="shop-picRow">
+                                    <a href="http://www.teleflora.com/bouquet/beautiful-in-blue?prodID=P_T209-3a&skuId=T209-3A">
+                                        <amp-img class="shopPic" src="http://img.teleflora.com/images/o_0/l_flowers:t209-3a,pg_6/w_160,h_200,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:200/flowers/t209-3a/BeautifulinBlue" width="60" height="70" layout="responsive" alt="an image">
+                                        </amp-img>  
+                                    </a>
+                                    <a href="http://www.teleflora.com/bouquet/citrus-kissed?prodID=P_T157-1a&skuId=T157-1A" id="up20">
+                                        <amp-img class="shopPic" src="http://img.teleflora.com/images/o_0/l_flowers:t157-1a,pg_6/w_160,h_200,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:200/flowers/t157-1a/CitrusKissed" width="60" height="70" layout="responsive" alt="an image">
+                                        </amp-img>
+                                    </a>
+                                    <a href="http://www.teleflora.com/bouquet/beautiful-in-blue?prodID=P_T209-3a&skuId=T209-3A"><div class="shop-picCap">$54.95</div></a>
+                                    <a href="http://www.teleflora.com/bouquet/citrus-kissed?prodID=P_T157-1a&skuId=T157-1A"><div class="shop-picCap">$62.95</div></a>
+                                </div>
+                                <div class="dividerline3"></div> 
+                            </figure>
+                        </section>
+                    </amp-accordion>  
+                </li>
+                <li class="ampstart-dropdown-item"> 
+                    <amp-accordion>
+                        <section><h4 class="nav-accord">collections<div class="icon-arrowD"></div></h4>
+                            <figure>
+                                <a href="http://www.teleflora.com/lets-celebrate?categoryId=cat870008">
+                                    <amp-img src="http://img.teleflora.com/image/upload/fl_lossy,f_auto,q_auto:eco/prod/banners/TF13336_LetsCelebrate_Small_Promo_208x248.jpg" width="120" height="140" layout="responsive" alt="an image"></amp-img>
+                                </a>
+                                <figcaption>Make your birthday blooms stand out this season.</figcaption>
+                                <figcaption class="figcaption2"><a href="http://www.teleflora.com/lets-celebrate?categoryId=cat870008"><h2>Shop Let's Celebrate</h2></a></figcaption>
+                                <a href="http://www.teleflora.com/teleflora-exclusives?catID=cat210127">
+                                    <amp-img src="http://img.teleflora.com/image/upload/fl_lossy,f_auto,q_auto:eco/prod/banners/TF10870_TFE_Small_Promo_208x248.jpg" width="120" height="140" layout="responsive" alt="an image"></amp-img>
+                                </a>
+                                <figcaption>Bright bouquets in unique vases that you'll only find here.</figcaption>
+                                <figcaption class="figcaption2"><a href="http://www.teleflora.com/teleflora-exclusives?catID=cat210127"><h2>Teleflora Exclusives</h2></a></figcaption>
+                                <a href="http://www.teleflora.com/gardens-of-the-world?catID=cat730021">
+                                    <amp-img src="http://img.teleflora.com/image/upload/fl_lossy,f_auto,q_auto:eco/prod/banners/TF10870_GOTW_Small_Promo_208x248.jpg" width="120" height="140" layout="responsive" alt="an image"></amp-img>
+                                </a>
+                                <figcaption>A stunning collection from around the globe.</figcaption>
+                                <figcaption class="figcaption2"><a href="http://www.teleflora.com/gardens-of-the-world?catID=cat730021"><h2>Travel Arrangements</h2></a></figcaption>
+                        <h2>More Collections</h2>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/monets-garden?catID=cat730013">Monet's garden</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/romanceofroses?categoryId=cat730020">Romance of roses</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/rooms-with-a-bloom?catID=cat220037">rooms with a bloom</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/ps-i-love-you?catID=cat720019">P.S. I love you</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/bestofthebunch?categoryId=cat790001">best of the bunch</a></li>
+                                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/collections?catID=cat730011" class="figcaption3"><h2>Shop all Collections</h2></a></li>
+                            </figure>
+                        </section>
+                    </amp-accordion>
+                </li>
+            </ul>
+            <h2>Customer Service</h2>
+            <ul class="nav2">
+                <li class="ampstart-dropdown-item"><a href="mailto:customerservice@teleflora.com">E-mail US</a></li>
+                <li class="ampstart-dropdown-item"><a href="tel:1-800-493-5610">(800)493-5610</a></li>
+                <li class="ampstart-dropdown-item"><a href="http://www.teleflora.com/InternationalFlowerDelivery">International Delivery</a></li>
+            </ul>
+        </nav>
+    </amp-sidebar>
+<!-- Search Bar Uses AMP Form --- this is mobile version -- though identical to desktop search bar version in desktop Nav section 3------>
+    <div class="search-box d-hide">
+        <form method="GET"
+          class="p2"
+          action="https://www.teleflora.com/browse"
+          target="_top">
+            <div class="ampstart-input">
+                <input type="search"
+                       placeholder="Search"
+                       name="Ntt">
+            </div>
+            <input id="submit" type="submit" value="" class="ampstart-btn caps">
+        </form>    
+    </div>    
+<!-- Main Body Content Starts here -------------------------------------------->  
+    <div class="main-container">
+        <div class="breadCrumbs-container m-hide">
+            <div class="crumbs">
+                <h2><a href="http://www.teleflora.com/">Home </a> ><a href="http://www.teleflora.com/gift-giving-ideas"> Gift Giving Guides </a> ><a href="http://www.teleflora.com/gift-giving-ideas/valentines"> Valentine's Day Gift Ideas</a></h2>
+            </div>
+        </div>
+        <div>
+            <h1 id="title-text">Teleflora's True Romance Bouquet with Red Roses</h1>
+            <div class="dividerline4"></div>
+        </div>
+        <div class="product-box">
+<!--   Product Picture Section --------------->
+            <div class="product-subbox">
+                <div class="product-gallery">
+    <amp-carousel id="green-apple-carousel" width="1024" height="682" layout="responsive" type="slides" [slide]="product.selectedSlideForGreen" on="slideChange: AMP.setState({product: {selectedSlideForGreen: event.index}})" class="show fadeIn" [class]="product.selectedColor == 'green' ? 'show  fadeIn' : 'hide'">
+
+      <amp-img src="http://s7d2.scene7.com/is/image/Teleflora/T17V100A?&wid=400&fmt=jpeg&qlt=80,0&op_sharpen=0&resMode=bilin&op_usm=3.0,0.5,1.0,0&iccEmbed=0&layer=1&opac=0&layer=2&opac=55&layer=5&opac=0&layer=3&opac=0" width="1024" height="682" layout="responsive" on="tap:gallery-lightbox" role="button" tabindex="0"></amp-img>
+      <amp-img src="http://s7d2.scene7.com/is/image/Teleflora/T17V100A?&wid=400&fmt=jpeg&qlt=80,0&op_sharpen=0&resMode=bilin&op_usm=3.0,0.5,1.0,0&iccEmbed=0&layer=1&opac=0&layer=2&opac=55&layer=5&opac=0&layer=3&opac=0" width="1024" height="682" layout="responsive" on="tap:gallery-lightbox" role="button" tabindex="0"></amp-img>
+
+    </amp-carousel>
+    <amp-carousel id="golden-apple-carousel" width="1024" height="682" layout="responsive" type="slides" [slide]="product.selectedSlideForGolden" on="slideChange: AMP.setState({product: {selectedSlideForGolden: event.index}})" class="hide" [class]="product.selectedColor == 'golden' ? 'show  fadeIn' : 'hide'">
+      <amp-img src="http://s7d2.scene7.com/is/image/Teleflora/T17V100A?&wid=400&fmt=jpeg&qlt=80,0&op_sharpen=0&resMode=bilin&op_usm=3.0,0.5,1.0,0&iccEmbed=0&layer=1&opac=0&layer=2&opac=55&layer=5&opac=0&layer=3&opac=0" width="1024" height="682" layout="responsive" on="tap:gallery-lightbox" role="button" tabindex="0"></amp-img>
+    </amp-carousel>
+    <amp-carousel id="red-apple-carousel" width="1024" height="682" layout="responsive" type="slides" [slide]="product.selectedSlideForRed" on="slideChange: AMP.setState({product: {selectedSlideForRed: event.index}})" class="hide" [class]="product.selectedColor == 'red' ? 'show  fadeIn' : 'hide'">
+      <amp-img src="http://s7d2.scene7.com/is/image/Teleflora/T17V100A?&wid=400&fmt=jpeg&qlt=80,0&op_sharpen=0&resMode=bilin&op_usm=3.0,0.5,1.0,0&iccEmbed=0&layer=1&opac=0&layer=2&opac=55&layer=5&opac=0&layer=3&opac=0" width="1024" height="682" layout="responsive" on="tap:gallery-lightbox" role="button" tabindex="0"></amp-img>
+      <amp-img src="http://s7d2.scene7.com/is/image/Teleflora/T17V100A?&wid=400&fmt=jpeg&qlt=80,0&op_sharpen=0&resMode=bilin&op_usm=3.0,0.5,1.0,0&iccEmbed=0&layer=1&opac=0&layer=2&opac=55&layer=5&opac=0&layer=3&opac=0" width="1024" height="682" layout="responsive" on="tap:gallery-lightbox" role="button" tabindex="0"></amp-img>
+    </amp-carousel>
+
+  </div>
+ <amp-state id="product"><script type="application/json">{
+        "relatedProductsSrc": "https://teleflorastgblog.site/PDP/json/related_products.json",
+        "selectedColor": "green",
+        "selectedSize": "S",
+        "selectedSlideForRed": 0,
+        "selectedSlideForGolden": 0,
+        "selectedSlideForGreen": 0,
+        "green": {
+          "sizes": {
+            "S": "$5.99",
+            "M": "$5.99",
+            "L": "unavailable"
+          },
+          "defaultSize": "S"
+        },
+        "golden": {
+          "sizes": {
+            "S": "$9.99",
+            "M": "unavailable",
+            "L": "$9.99"
+          },
+          "defaultSize": "L"
+        },
+        "red": {
+          "sizes": {
+            "S": "$7.99",
+            "M": "$7.99",
+            "L": "$7.99"
+          },
+          "defaultSize": "M"
+        }
+      }</script>
+    </amp-state>
+                <p class="price-description">Price: <span [text]="product[product.selectedColor].sizes[product.selectedSize]">$5.99</span></p>
+            </div>
+<!--   Form Section --------------->
+            <div class="product-subbox">
+                <div class="dividerline4"></div>
+                <h2>Select Size</h2>
+                  <form id="order" method="POST" action-xhr="https://teleflorastgblog.site/PDP/example.php" target="_top" class="flex flex-wrap m1">               
+                      <div class="ampstart-input ampstart-input-radio">
+                          <input type="radio"
+                                 id="cat"
+                                 class="relative"
+                                 name="favourite animal"
+                                 value="cat"
+                                 checked>
+                          <label for="cat">Standard</label>
+                      </div>
+                     <div class="ampstart-input ampstart-input-radio">
+                          <input type="radio"
+                                 id="other"
+                                 class="relative"
+                                 name="favourite animal"
+                                 value="other">
+                          <label for="other">Deluxe</label>
+                      </div>
+                      <div class="ampstart-input ampstart-input-radio">
+                          <input type="radio"
+                                 id="other"
+                                 class="relative"
+                                 name="favourite animal"
+                                 value="other">
+                          <label for="other">Premium</label>
+                      </div>
+                      <div class="dividerline4"></div>
+                      <h2>Add something Extra</h2>
+                      <div class="ampstart-input">
+                          <select name="ATG-Mylar balloons"
+                                  id="mylar-balloons">
+                              <option value>select</option>
+                              <option value="ATG1">1 Balloon - $4.99</option>
+                              <option value="ATG2">2 Balloons - $9.99</option>
+                              <option value="ATG3">3 Balloons - $14.99</option>
+                          </select>
+                          <label for="ATG-Mylar balloons"
+                                 class="">Mylar Ballons</label>
+                      </div>
+                      <div class="ampstart-input">
+                          <select name="ATG-Stuffed animal"
+                                  id="stuffed-animal">
+                                <option value>select</option>
+                              <option value="ATG1">Small - $9.99</option>
+                              <option value="ATG2">Medium - $19.99</option>
+                              <option value="ATG3">Large - $29.99</option>
+                          </select>
+                          <label for="ATG-Stuffed animal"
+                                 class="">Stuffed Animal</label>
+                      </div>
+                      <div class="ampstart-input">
+                          <select name="ATG-Chocolates"
+                                  id="chocolates">
+                              <option value>select</option>
+                              <option value="ATG1">Small box - $9.99</option>
+                              <option value="ATG2">Medium box - $19.99</option>
+                              <option value="ATG3">Large box - $29.99</option>
+                          </select>
+                          <label for="ATG-Chocolates" class="">Chocolates</label>
+                      </div>
+                      <div class="dividerline4"></div>
+                <h2>Delivery Date</h2>
+                      <div class="ampstart-input inline-block relative mb3">
+                          <input id="postalCode"
+                                 type="text"
+                                 name="zip"
+                                 min="00000"
+                                 max="99999"
+                                 placeholder="RECIPIENT ZIP CODE"
+                                 >
+                      </div>
+                       <div class="ampstart-input">
+                           <input name="select-date"
+                                  type="date"
+                                  placeholder="DELIVERY DATE"
+                                  value="2020-12-30">
+                      </div>
+                      <!-- Desktop/mobile Top Promo LightBox. this is activated when the "top-promo-container span" is clicked  ----------------------------------------->
+                      <h2 class="" on="tap:my-lightbox-zip" role="button" tabindex="0">Find Zip Code</h2>
+                      <h2 class="" role="button"><a href="http://teleflora.com/account/login.jsp">Use Address Book</a></h2>
+<!--                      <h2 class="" role="button">Save for later- modal? maybe not poss</h2>-->
+                      <input type="submit"
+                             value="Add to Cart"
+                             class="ampstart-btn caps">
+                      <div submit-success>
+                          <template type="amp-mustache">Success! Thanks for trying the
+                              <code>amp-form</code> demo!
+                          </template>
+                      </div>
+                      <div submit-error>
+                          <template type="amp-mustache">
+                              Error!</template>
+                      </div>
+                </form>
+            </div>
+        </div>
+<!--   Tabs : about, Specs, Size --------------->
+        <amp-selector role="tablist"
+          layout="container"
+          class="ampTabContainer ampstart-headerbar-nav"
+          keyboard-select-mode="select">
+          <div role="tab"
+            class="tabButton h4 ampstart-nav-item"
+            selected
+            option="a">ABOUT</div>
+          <div role="tabpanel"
+            class="tabContent p1 p">Fruit is rich in vitamins and minerals. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat.</div>
+          <div role="tab"
+            class="tabButton h4 ampstart-nav-item"
+            option="b">SPECS</div>
+          <div role="tabpanel"
+            class="tabContent p1 p">Always wash fruit before eating. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+          <div role="tab"
+            class="tabButton h4 ampstart-nav-item"
+            option="c">SIZE</div>
+          <div role="tabpanel"
+            class="tabContent p1 p">Size may vary. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        </amp-selector>
+<!--   Recommended items --------------->
+        <div class="recommend-list">
+          <amp-list class="items m1"
+                  width="auto"
+                  height="500"
+                  layout="fixed-height"
+                  src="https://teleflorastgblog.site/PDP/json/related_products.json"
+                  [src]="product.relatedProductsSrc">
+                <template type="amp-mustache">
+                    <a class="text-decoration-none p1"
+                       href="/samples_templates/product_page/preview/">
+                        <amp-img width="640"
+                                 height="426"
+                                 layout="responsive"
+                                 alt="{{name}}"
+                                 src="{{img}}"></amp-img>
+                        <p class="name">{{name}}</p>
+                        <p class="star">{{{stars}}}</p>
+                        <p class="price">${{price}}</p>
+                    </a>
+                </template>
+            </amp-list>
+        </div>
+        
+    </div> 
+<!------------- footer----Mobile and desktop------------------------------------->
+     <footer class='footer' >
+         <div class='container-footer'>
+             <div class="footer-join">
+                 <h5>Join The Club</h5>
+                 <p>Receive Teleflora emails and be the first to know about exclusive offers, promotions, and more!</p>
+            <!-- Email sign up form  ------- Use the action-xhr attribute to submit the form via XMLHttpRequest (XHR) --------------->
+                       <form method="post"
+                       class="p2"
+                       action-xhr="https://teleflora.com/account/externalUserSubscriptions.jsp" 
+                       target="_top">
+                    <fieldset>
+                    <div class="ampstart-input">
+                        <input type="email"
+                               class="email-feild"
+                               name="optinEmailAddress"
+                               placeholder="Enter E-Mail Address"
+                               required>
+                    </div>
+                        <input type="submit"
+                           value="GO"
+                           class="ampstart-btn"
+                           id="email-btn">
+                    </fieldset>
+
+
+                    <div class="form-message invalid-message">
+                    </div>
+
+                    <div class="form-message valid-message">
+                    </div>
+
+                    <div submit-success>
+                        <template type="amp-mustache"> Thank you for signign up for the teleflora email.
+                        </template>
+                    </div>
+                    <div submit-error>
+                        <template type="amp-mustache"> There was an error with your sign up. Please try again.
+                        </template>
+                    </div>
+                </form>
+             </div>
+            <!--Footer: connect Social -->
+            <div class="dividerline2 d-hide"></div>
+            <div class="footer-connect">
+                <h5>Connect with Teleflora</h5>
+                <p>Get the latest news and offers.</p>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/teleflora" class="icon-social" target="_blank">
+                        <amp-img src="http://img.teleflora.com/image/upload/v1499982024/prod/logos/social-sprite-fb.jpg"
+                                width="27"
+                                height="27"
+                                layout="fixed"
+                                alt="facebook">
+                        </amp-img></a>
+                    <a href="https://twitter.com/teleflora" class="icon-social" target="_blank">
+                        <amp-img src="http://img.teleflora.com/image/upload/v1499982024/prod/logos/social-sprite-tw.jpg"
+                                width="27"
+                                height="27"
+                                layout="fixed"
+                                alt="facebook">
+                        </amp-img></a>    
+                    <a href="https://www.instagram.com/teleflora/" class="icon-social" target="_blank">
+                         <amp-img src="http://img.teleflora.com/image/upload/v1499982024/prod/logos/social-sprite-inst.jpg"
+                                width="27"
+                                height="27"
+                                layout="fixed"
+                                alt="facebook">
+                         </amp-img></a>
+                    <a href="http://www.pinterest.com/teleflora/" class="icon-social" target="_blank">
+                        <amp-img src="http://img.teleflora.com/image/upload/v1499982024/prod/logos/social-sprite-pin.jpg"
+                                width="27"
+                                height="27"
+                                layout="fixed"
+                                alt="facebook">
+                        </amp-img></a>
+                    <a href="https://www.youtube.com/teleflora/" class="icon-social" target="_blank">
+                        <amp-img src="http://img.teleflora.com/image/upload/v1499982024/prod/logos/social-sprite-yt.jpg"
+                                width="27"
+                                height="27"
+                                layout="fixed"
+                                alt="facebook">
+                        </amp-img></a>
+                    <a href="https://plus.google.com/+teleflora" class="icon-social" target="_blank">
+                        <amp-img src="http://img.teleflora.com/image/upload/v1499982024/prod/logos/social-sprite-g.jpg"
+                                width="27"
+                                height="27"
+                                layout="fixed"
+                                alt="facebook">
+                         </amp-img> 
+                     </a>
+                </div>
+            </div>
+            <div class="dividerline2 d-hide"></div>
+    <!-- footer: Rewards ------------------->
+            <div class="footer-rewards">
+                <h5>Get Rewarded!</h5>
+                <p>Earn rewards like discounts and free bouquets</p>
+                <a id="img-rewards" href="http://www.teleflora.com/account/login.jsp?signUpForRewards=true">          
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="230px" height="25.333px" viewBox="0 0 230 25.333" enable-background="new 0 0 230 25.333" xml:space="preserve">
+                        <g>
+                            <path fill="#FA3C7A" d="M9.883,9.323H5.594V5.19H3.17v4.133H0v2.051h3.17v7.987c0,3.015,0.559,4.879,4.009,4.879 c0.901,0,1.989-0.156,2.828-0.528l-0.093-2.207c-0.653,0.342-1.43,0.497-2.144,0.497c-2.145,0-2.176-1.492-2.176-3.356v-7.272 h4.289V9.323z"></path><path fill="#FA3C7A" d="M22.152,19.797c-1.15,1.46-2.549,2.206-4.631,2.206c-2.642,0-4.568-2.144-4.755-4.662h11.748v-0.777c0-4.817-2.797-7.614-6.9-7.614c-4.289,0-7.459,3.139-7.459,7.645c0,4.227,2.797,7.645,7.366,7.645c2.704,0,4.755-0.808,6.464-3.014L22.152,19.797z M12.766,15.29c0.311-2.455,2.082-4.102,4.755-4.102c2.673,0,4.289,1.647,4.382,4.102H12.766z"></path><path fill="#FA3C7A" d="M26.625,23.868h2.424V0.373h-2.424V23.868z"></path><path fill="#FA3C7A" d="M43.157,19.797c-1.15,1.46-2.548,2.206-4.631,2.206c-2.642,0-4.568-2.144-4.755-4.662h11.748v-0.777c0-4.817-2.797-7.614-6.9-7.614c-4.289,0-7.459,3.139-7.459,7.645c0,4.227,2.797,7.645,7.366,7.645c2.704,0,4.755-0.808,6.464-3.014L43.157,19.797z M33.771,15.29c0.311-2.455,2.082-4.102,4.755-4.102c2.673,0,4.289,1.647,4.382,4.102H33.771z"></path><path fill="#FA3C7A"d="M48.966,23.868h2.424V11.375h3.543V9.323H51.39V6.588c0-2.517,0.093-4.351,2.611-4.351c0.56,0,1.119,0.124,1.647,0.311l0.342-2.176C55.524,0.124,54.747,0,54.125,0c-3.916,0-5.159,2.517-5.159,6.06v3.263h-3.17v2.051h3.17V23.868z"></path><path fill="#FA3C7A" d="M56.798,23.868h2.424V0.373h-2.424V23.868z"></path><path fill="#FA3C7A" d="M61.022,16.596c0,4.537,3.294,7.645,7.77,7.645c4.475,0,7.77-3.108,7.77-7.645c0-4.538-3.294-7.645-7.77-7.645C64.317,8.95,61.022,12.058,61.022,16.596z M63.633,16.596c0-3.046,2.02-5.408,5.159-5.408s5.159,2.362,5.159,5.408c0,3.046-2.02,5.407-5.159,5.407S63.633,19.642,63.633,16.596z"></path><path fill="#FA3C7A" d="M78.147,23.868h2.424v-7.086c0-3.325,1.305-5.407,4.258-5.407c0.435,0,0.901,0.062,1.305,0.186l0.156-2.455c-0.342-0.124-0.684-0.155-0.995-0.155c-2.393,0-4.195,1.336-4.848,2.766h-0.062c0-0.808-0.062-1.616-0.062-2.393h-2.3c0,0.963,0.125,2.113,0.125,3.45V23.868z"></path><path fill="#FA3C7A" d="M88.863,12.773c1.15-1.056,2.766-1.584,4.319-1.584c2.269,0,3.605,1.087,3.605,3.201v0.435h-0.932c-3.574,0-9.168,0.28-9.168,5.097c0,2.828,2.455,4.32,5.408,4.32c2.206,0,3.823-1.056,4.786-2.549h0.062c0,0.622,0,1.523,0.155,2.175h2.331c-0.125-0.745-0.218-1.677-0.218-2.517v-6.247c0-4.102-1.802-6.153-6.091-6.153c-2.114,0-4.289,0.715-5.781,2.238L88.863,12.773z M96.788,16.875v0.933c-0.062,2.362-1.492,4.382-4.288,4.382c-1.834,0-3.201-0.684-3.201-2.518c0-1.958,1.989-2.797,5.066-2.797H96.788z"></path>
+                        </g>
+                        <g>
+                            <path fill="#FA3C7A"d="M108.253,9.417h4.495v2.337h0.06c0.959-1.768,2.218-2.697,4.196-2.697c0.51,0,1.079,0.03,1.498,0.15v4.105c-0.629-0.18-1.259-0.299-1.918-0.299c-3.417,0-3.836,1.978-3.836,4.884v6.084h-4.495V9.417z"></path><path fill="#FA3C7A"
+                                  d="M133.042,21.464c-1.438,1.828-3.806,2.877-6.144,2.877c-4.495,0-8.091-2.997-8.091-7.642c0-4.645,3.596-7.642,8.091-7.642c4.196,0,6.833,2.997,6.833,7.642v1.408h-10.429c0.359,1.708,1.648,2.817,3.387,2.817c1.468,0,2.457-0.749,3.206-1.769L133.042,21.464z M129.236,15.051c0.03-1.498-1.139-2.757-2.757-2.757c-1.979,0-3.057,1.349-3.177,2.757H129.236z"></path><path fill="#FA3C7A" d="M133.185,9.417h4.795l2.967,9.141h0.061l2.487-9.141h4.914l2.697,9.141h0.061l2.727-9.141h4.556l-5.185,14.564h-4.436l-3.027-9.68h-0.06l-2.697,9.68h-4.524L133.185,9.417z"></path><path fill="#FA3C7A" d="M167.803,22.154h-0.06c-0.989,1.559-2.787,2.188-4.615,2.188c-2.728,0-5.185-1.558-5.185-4.495c0-5.035,6.113-5.125,9.859-5.125c0-1.588-1.318-2.607-2.877-2.607c-1.469,0-2.697,0.659-3.656,1.738l-2.397-2.458c1.648-1.558,4.046-2.337,6.413-2.337c5.245,0,6.653,2.667,6.653,7.522v7.402h-4.136V22.154z M166.694,17.599c-1.379,0-4.436,0.119-4.436,2.098c0,1.078,1.139,1.588,2.128,1.588c1.768,0,3.416-0.929,3.416-2.727v-0.959H166.694z"></path><path fill="#FA3C7A" d="M174.011,9.417h4.496v2.337h0.06c0.959-1.768,2.218-2.697,4.195-2.697c0.51,0,1.079,0.03,1.499,0.15v4.105c-0.63-0.18-1.259-0.299-1.918-0.299c-3.417,0-3.836,1.978-3.836,4.884v6.084h-4.496V9.417z"></path><path fill="#FA3C7A" d="M200.361,23.982h-4.136v-1.918h-0.06c-0.689,1.049-2.428,2.277-4.466,2.277c-4.315,0-7.162-3.116-7.162-7.521c0-4.046,2.518-7.762,6.653-7.762c1.857,0,3.596,0.51,4.615,1.918h0.06v-9.65h4.495V23.982zM192.63,13.014c-2.248,0-3.597,1.499-3.597,3.686s1.349,3.686,3.597,3.686c2.247,0,3.596-1.498,3.596-3.686S194.877,13.014,192.63,13.014z"></path><path fill="#FA3C7A"
+                                  d="M211.041,13.702c-0.659-0.809-1.528-1.229-2.606-1.229c-0.749,0-1.648,0.33-1.648,1.199c0,2.158,7.582,0.33,7.582,5.874c0,3.716-3.597,4.795-6.713,4.795c-2.038,0-4.286-0.509-5.724-1.978l2.727-3.027c0.839,1.02,1.828,1.589,3.177,1.589c1.019,0,2.038-0.27,2.038-1.049c0-2.338-7.582-0.359-7.582-5.904c0-3.417,3.057-4.915,6.113-4.915c1.918,0,4.046,0.479,5.395,1.918L211.041,13.702z"></path>
+                        </g>
+                            <path fill="#FA3C7A"d="M229.242,17.176c0,0.294-0.112,0.588-0.337,0.813l-6.323,6.324c-0.449,0.449-1.177,0.449-1.626,0s-0.449-1.177,0-1.626l5.51-5.511l-5.51-5.511c-0.449-0.449-0.449-1.177,0-1.626s1.177-0.449,1.626,0l6.323,6.324C229.129,16.587,229.242,16.882,229.242,17.176z"></path>
+                    </svg>
+                </a>
+             </div>
+             <div class="dividerline2"></div>
+    <!--Footer: OurCompany rewards ----->     
+             <div class="footer-list">
+                 <div class="footer-sublist">
+                     <h5>Our Company</h5>
+                     <ul class="link-list">
+                        <li><a href="http://www.teleflora.com/info/about">About Us</a></li>
+                        <li><a href="http://www.teleflora.com/careers">Careers</a></li>
+                        <li><a href="http://www.teleflora.com/media">Media</a></li>
+                        <li><a href="http://www.teleflora.com/info">Our Services</a></li>
+                        <li><a href="http://www.teleflora.com/info-partner-programs">Partnership Programs</a></li>
+                        <li><a href="http://www.teleflora.com/becomeatelefloraflorist">Become a Teleflora Florist</a></li>
+                        <li><a href="http://www.teleflora.com/info/the-teleflora-difference">What's the Teleflora Difference?</a></li>
+                      </ul>
+                 </div>
+                 <div class="footer-sublist">
+                    <h5>Flower Guides</h5>
+                     <ul class="link-list">
+                        <li><a href="http://www.teleflora.com/blog/">Blog</a></li>
+                        <li><a href="http://www.teleflora.com/floral-facts">Floral Facts &amp; Inspiration</a></li>
+                        <li><a href="http://www.teleflora.com/gift-giving-ideas">Gift Giving Guides</a></li>
+                        <li><a href="http://www.teleflora.com/funeral-sympathy-collection">Sympathy &amp; Funeral Guide</a></li>
+                        <li><a href="http://www.teleflora.com/wedding-flowers/ideas-inspiration">Wedding Flower Guide</a></li>
+                     </ul>
+                 </div>
+                 <div class="footer-sublist">
+                    <h5>Shop Teleflora</h5>
+                     <ul class="link-list">
+                        <li><a href="http://www.teleflora.com/same-day-flower-delivery/?catID=cat480085">Same-Day Flower Delivery</a></li>
+                        <li><a href="http://www.teleflora.com/birthday-flowers/cat210012">Birthday Flowers</a></li>
+                        <li><a href="http://www.teleflora.com/funeral-sympathy-collection">Funeral &amp; Sympathy Flowers</a></li>
+                        <li><a href="http://www.teleflora.com/InternationalFlowerDelivery">International Flower Delivery</a></li>
+                     </ul>
+                 </div>
+                 <div class="footer-sublist">
+                    <h5>Help</h5>
+                     <ul class="link-list">
+                        <li><a href="http://www.teleflora.com/info/faq">Customer FAQs</a></li>
+                        <li><a href="http://www.findaflorist.com/" target="_blank">Find a Florist</a></li>
+                        <li><a href="http://www.teleflora.com/info/how-to-place-an-order">Order &amp; Delivery Info</a></li>
+                        <li><a href="http://www.teleflora.com/aboutUs/order_inquiry.jsp">Contact Customer Service</a></li>
+                        <li><a href="http://www.teleflora.com/info/securityprivacy">Security &amp; Privacy</a></li>
+                        <li><a href="http://www.teleflora.com/sitemap">Sitemap</a></li>
+                     </ul>
+                 </div>
+             </div>
+        </div>
+        <div class="lang-toggle"></div>
+    </footer>
+</body>
+</html>

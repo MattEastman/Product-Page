@@ -13,6 +13,19 @@
 
 'use strict';
 
+// cached files 
+var filesToCache = [
+    '/',
+//    '/scripts/app.js',
+//    '/styles/style.css',
+//    '/images/clear.png',
+    'http://s7d2.scene7.com/is/image/Teleflora/T17V100A?&wid=400&fmt=jpeg&qlt=80,0&op_sharpen=0&resMode=bilin&op_usm=3.0,0.5,1.0,0&iccEmbed=0&layer=1&opac=0&layer=2&opac=55&layer=5&opac=0&layer=3&opac=0',
+    'http://s7d2.scene7.com/is/image/Teleflora/T400-3A?&wid=400&fmt=jpeg&qlt=80,0&op_sharpen=0&resMode=bilin&op_usm=3.0,0.5,1.0,0&iccEmbed=0&layer=1&opac=0&layer=2&opac=55&layer=5&opac=0&layer=3&opac=0',
+    '/json/related_products.json'
+    
+];
+
+
 // Incrementing CACHE_VERSION will kick off the install event and force previously cached
 // resources to be cached again.
 const CACHE_VERSION = 1;
